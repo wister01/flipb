@@ -163,11 +163,11 @@ footer{
 
     }
     .logo-container img{
-        width: 85%;
+        width: 80%;
     }
 
     .inscreva {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         padding: 18px 46px;
         bottom: 20%;
     }
@@ -211,6 +211,7 @@ footer{
         display: block;
     }
 
+
     footer{
         position: absolute;
         bottom: 0;
@@ -224,7 +225,12 @@ footer{
         font-size: 0.6rem;
         letter-spacing: 0.1rem;
     }
-
+    .rotas{
+        position: absolute;
+        left: 0;
+        top: 90%;
+        max-width: 70%;
+    }
     .gov-logo{
         position: absolute;
         top: 5%;
