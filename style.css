@@ -100,7 +100,7 @@ main{
 .inscreva{
     position: absolute;
     z-index: 99;
-    bottom: 26%;
+    bottom: 15%;
     background-color: #fff;
     padding: 18px 46px;
     text-decoration: none;
