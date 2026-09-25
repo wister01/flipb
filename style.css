@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +14,6 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 html,
 body{
@@ -26,6 +26,7 @@ body{
 main{
     width: 100%;
     height: 100vh;
+    height: 100dvh;
     display: flex;
     justify-content: center;
 }
@@ -54,12 +55,12 @@ main{
     text-decoration: none;
     color: #fff;
     text-transform: lowercase;
-
 }
 
 .address{
     text-transform: capitalize;
 }
+
 .social{
     position: absolute;
     display: flex;
@@ -68,14 +69,14 @@ main{
     height: 2rem;
     z-index: 99;
     left: 90%;
-    top: 10;
+    top: 10px;
     margin-top: 1rem;
     gap: 1rem;
     color: #fff;
     letter-spacing: 0.1rem;
     font-size: 1.2rem;
-
 }
+
 .social img{
     width: 32px;
 }
@@ -90,6 +91,7 @@ main{
     transform: translateY(-20%);
     transition: all 0.5s ease;
 }
+
 .rotas{
     position: absolute;
     left: 0;
@@ -112,15 +114,18 @@ main{
     text-transform: uppercase;
     transition: all 0.4s ease;
 }
+
 .inscreva:hover{
     transform: scale(1.1) rotateZ(2deg);
     color: #fff;
     background-color: #EC0975;
 }
+
 .parallax-scene{
     position: relative;
     width: 100%;
     height: 100vh;
+    height: 100dvh;
     overflow: hidden;
 }
 
@@ -131,10 +136,10 @@ main{
     inset: 0;
     width: 100%;
     height: 100vh;
+    height: 100dvh;
     object-fit: cover;
     z-index: 0;
     transition: transform 0.15s ease-out;
-
 }
 
 .parallax{
@@ -164,6 +169,7 @@ main{
     transform: translateX(-15%);
     z-index: 3;
 }
+
 .gov-logo{
     position: absolute;
     bottom: 5%;
@@ -186,29 +192,39 @@ footer{
     letter-spacing: 0.1rem;
 }
 
+
 @media (max-width: 480px) {
 
+    main{
+        height: 100vh;
+        height: 100dvh;
+    }
 
     .info{
         background: none;
         box-shadow: none;
-        transform: rotateZ(0);
+
+        top: calc(50px + 57dvh);
+        left: 0;
+
+        width: 100%;
+
+        transform: none;
+
         font-size: small;
         text-align: center;
-        position: absolute;
-        transform: translateY(485px);
-
     }
 
     .logo-container {
         top: 32%;
         left: 20%;
         max-width: 90vw;
-
     }
+
     .logo-container img{
         width: 65%;
     }
+
     .logo-main{
         width: 2px;
     }
@@ -218,46 +234,51 @@ footer{
         padding: 18px 46px;
         bottom: 20%;
     }
+
     .parallax{
         width: 100vw;
-        top:6%;
+        top: 6%;
         left: 10%;
     }
+
     .layer-1 img{
         width: 100%;
-        height: 100%;
-    }
-   .social{
-        position: absolute;
-        bottom: 10%;
-        left: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center; 
-        align-items: center;
-        gap: 0.6rem;             
-        margin: 0;
-        
-    }
-    .social p{
-        flex: none;              
-        width: auto;
-        white-space: nowrap;     
-        font-size: 1.2rem;
-        margin: 0;
-    }
-    .social a {
-        display: flex;
-        align-items: center;
-        flex: none;
-    }
-
-    .social img{
-        width: 24px;
         height: auto;
         display: block;
     }
 
+    .social{
+    position: absolute;
+    top: auto;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 0.6rem;             
+    margin: 0;
+}
+
+.social p{
+    flex: none;              
+    width: auto;
+    white-space: nowrap;     
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+    flex: none;
+}
+
+.social img{
+    width: 24px;
+    height: auto;
+    display: block;
+}
 
     footer{
         position: absolute;
@@ -272,12 +293,14 @@ footer{
         font-size: 0.6rem;
         letter-spacing: 0.1rem;
     }
+
     .rotas{
         position: absolute;
         left: 0;
         top: 90%;
         max-width: 70%;
     }
+
     .gov-logo{
         position: absolute;
         top: 5%;
@@ -289,9 +312,10 @@ footer{
 }
 
 
-
 @media (prefers-reduced-motion: reduce){
+
     .parallax{
         transition: none;
     }
+
 }
