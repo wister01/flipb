@@ -1,127 +1,223 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
 @font-face {
-    font-family: 'Premiero';
-    src: url('premiero.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+font-family: 'Premiero';
+src: url('premiero.otf') format('opentype');
+font-weight: normal;
+font-style: normal;
 }
-
 
 html,
-body{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    font-family: 'Premiero', sans-serif;
+body {
+width: 100%;
+height: 100%;
+overflow: hidden;
+font-family: 'Premiero', sans-serif;
 }
 
-main{
-    width: 100%;
-    height: 100vh;
-    height: 100dvh;
-    display: flex;
-    justify-content: center;
+body {
+position: relative;
 }
 
-.info{
-    position: absolute;
-    top: 50px;
-    left: 46px;
-    z-index: 100;
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    background-color: #EC0975;
-    padding: 10px 20px;
-    transform: rotateZ(5deg);
-    box-shadow: 5px 5px 20px #63053236;
+main {
+position: relative;
+width: 100%;
+height: 100vh;
+height: 100dvh;
+display: flex;
+justify-content: center;
+overflow: hidden;
 }
 
-.info h3{
-    font-family: "Premiero", sans-serif;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
+.info {
+position: absolute;
+top: 50px;
+left: 46px;
+z-index: 100;
+color: #fff;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+background-color: #EC0975;
+padding: 10px 20px;
+transform: rotateZ(5deg);
+box-shadow: 5px 5px 20px #63053236;
 }
 
-.info a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: lowercase;
+.info h3 {
+font-family: "Premiero", sans-serif;
+font-size: 2rem;
+letter-spacing: 0.1rem;
 }
 
-.address{
-    text-transform: capitalize;
+.info a {
+text-decoration: none;
+color: #fff;
+text-transform: lowercase;
 }
 
-.social{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 2rem;
-    z-index: 99;
-    left: 90%;
-    top: 10px;
-    margin-top: 1rem;
-    gap: 1rem;
-    color: #fff;
-    letter-spacing: 0.1rem;
-    font-size: 1.2rem;
+.address {
+text-transform: capitalize;
 }
 
-.social img{
-    width: 32px;
+.social {
+position: absolute;
+top: 10px;
+left: 90%;
+width: 100%;
+height: 2rem;
+z-index: 100;
+display: flex;
+align-items: center;
+margin-top: 1rem;
+gap: 1rem;
+color: #fff;
+letter-spacing: 0.1rem;
+font-size: 1.2rem;
 }
 
-
-.logo-container{
-    position: absolute;
-    left: 5%;
-    top: 30%;
-    z-index: 99;
-    opacity: 100%;
-    transform: translateY(-20%);
-    transition: all 0.5s ease;
+.social img {
+width: 32px;
 }
 
-.rotas{
-    position: absolute;
-    left: 0;
-    top: 90%;
-    max-width: 110%;
+.logo-container {
+position: absolute;
+left: 5%;
+top: 30%;
+z-index: 99;
+opacity: 1;
+transform: translateY(-20%);
+transition: all 0.5s ease;
 }
 
-.inscreva{
-    position: absolute;
-    z-index: 99;
-    bottom: 15%;
-    background-color: #fff;
-    padding: 18px 46px;
-    text-decoration: none;
-    color: #EC0975;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-    transform: rotateZ(-5deg) translateY(20px);
-    text-transform: uppercase;
-    transition: all 0.4s ease;
+.logo-container img {
+display: block;
 }
 
-.inscreva:hover{
-    transform: scale(1.1) rotateZ(2deg);
-    color: #fff;
-    background-color: #EC0975;
+.logo-main {
+display: block;
 }
 
-.parallax-scene{
+.rotas {
+position: absolute;
+left: 0;
+top: 90%;
+max-width: 110%;
+}
+
+.inscreva {
+position: absolute;
+left: 50%;
+bottom: 15%;
+z-index: 100;
+background-color: #fff;
+padding: 18px 46px;
+text-decoration: none;
+color: #EC0975;
+font-size: 2rem;
+letter-spacing: 0.1rem;
+white-space: nowrap;
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+transform: translateX(-50%) rotateZ(-5deg);
+text-transform: uppercase;
+transition: transform 0.4s ease, color 0.4s ease, background-color 0.4s ease;
+}
+
+.inscreva:hover {
+transform: translateX(-50%) scale(1.1) rotateZ(2deg);
+color: #fff;
+background-color: #EC0975;
+}
+
+.parallax-scene {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+height: 100dvh;
+overflow: hidden;
+z-index: 1;
+pointer-events: none;
+}
+
+.background {
+position: absolute;
+inset: 0;
+width: 100%;
+height: 100vh;
+height: 100dvh;
+object-fit: cover;
+z-index: 0;
+transition: transform 0.15s ease-out;
+}
+
+.parallax {
+position: absolute;
+top: 0;
+left: 0;
+transition: transform 0.15s ease-out;
+will-change: transform;
+pointer-events: none;
+user-select: none;
+}
+
+.layer-1 {
+max-width: 120%;
+transform: translateX(-15%);
+z-index: 1;
+}
+
+.layer-2 {
+max-width: 120%;
+transform: translateX(-15%);
+z-index: 2;
+}
+
+.layer-3 {
+max-width: 105%;
+transform: translateX(-15%);
+z-index: 3;
+}
+
+.gov-logo {
+position: absolute;
+bottom: 5%;
+right: 5%;
+max-width: 25%;
+z-index: 99;
+}
+
+footer {
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 2rem;
+z-index: 200;
+background-color: #EC0975;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.9rem;
+letter-spacing: 0.1rem;
+overflow: hidden;
+}
+
+footer p {
+white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+
+
+main {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -129,143 +225,122 @@ main{
     overflow: hidden;
 }
 
-.background{
+.info {
     position: absolute;
+    top: auto;
+    bottom: 33%;
     left: 0;
-    top: 0;
-    inset: 0;
     width: 100%;
-    height: 100vh;
-    height: 100dvh;
-    object-fit: cover;
-    z-index: 0;
-    transition: transform 0.15s ease-out;
+    padding: 0 15px;
+    background: none;
+    box-shadow: none;
+    transform: none;
+    z-index: 100;
+    color: #fff;
+    font-size: small;
+    text-align: center;
 }
 
-.parallax{
+.info h3 {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    letter-spacing: 0.05rem;
+}
+
+.info p,
+.info a {
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+.logo-container {
     position: absolute;
-    top: 0;
-    left: 0;
-    transition: transform 0.15s ease-out;
-    will-change: transform;
-    pointer-events: none;
-    user-select: none;
-}
-
-.layer-1{
-    max-width: 120%;
-    transform: translateX(-15%);
-    z-index: 1;
-}
-
-.layer-2{
-    max-width: 120%;
-    transform: translateX(-15%);
-    z-index: 2;
-}
-
-.layer-3{
-    max-width: 105%;
-    transform: translateX(-15%);
-    z-index: 3;
-}
-
-.gov-logo{
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    max-width: 25%;
+    top: 32%;
+    left: 20%;
+    max-width: 90vw;
     z-index: 99;
 }
 
-footer{
+.logo-container img {
+    display: block;
+}
+
+.logo-container .logo-main {
+    width: 65%;
+    height: auto;
+}
+
+.logo-main {
+    width: 2px;
+}
+
+.rotas {
     position: absolute;
-    bottom: 0;
+    left: 0;
+    top: 90%;
+    max-width: 70%;
+}
+
+.inscreva {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    z-index: 100;
+    font-size: 1.4rem;
+    padding: 18px 46px;
+    white-space: nowrap;
+    transform: translateX(-50%) rotateZ(-5deg);
+}
+
+.inscreva:hover {
+    transform: translateX(-50%) scale(1.05) rotateZ(2deg);
+}
+
+.parallax-scene {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.parallax {
+    width: 100vw;
+    top: 6%;
+    left: 10%;
+}
+
+.layer-1 img {
     width: 100%;
-    height: 2rem;
-    background-color: #EC0975;
-    color: #fff;
+    height: auto;
+    display: block;
+}
+
+.social {
+    position: absolute;
+    top: auto;
+    bottom: 8%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9rem;
-    letter-spacing: 0.1rem;
-}
-
-
-@media (max-width: 480px) {
-
-    main{
-        height: 100vh;
-        height: 100dvh;
-    }
-
-    .info{
-        background: none;
-        box-shadow: none;
-
-        top: calc(50px + 57dvh);
-        left: 0;
-
-        width: 100%;
-
-        transform: none;
-
-        font-size: small;
-        text-align: center;
-    }
-
-    .logo-container {
-        top: 32%;
-        left: 20%;
-        max-width: 90vw;
-    }
-
-    .logo-container img{
-        width: 65%;
-    }
-
-    .logo-main{
-        width: 2px;
-    }
-
-    .inscreva {
-        font-size: 1.4rem;
-        padding: 18px 46px;
-        bottom: 20%;
-    }
-
-    .parallax{
-        width: 100vw;
-        top: 6%;
-        left: 10%;
-    }
-
-    .layer-1 img{
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .social{
-    position: absolute;
-    top: auto;
-    bottom: 10%;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    gap: 0.6rem;             
+    gap: 0.6rem;
     margin: 0;
-}
-
-.social p{
-    flex: none;              
-    width: auto;
-    white-space: nowrap;     
     font-size: 1.2rem;
+}
+
+.social p {
+    flex: none;
+    width: auto;
     margin: 0;
+    white-space: nowrap;
+    font-size: 1.2rem;
 }
 
 .social a {
@@ -274,48 +349,49 @@ footer{
     flex: none;
 }
 
-.social img{
+.social img {
     width: 24px;
     height: auto;
     display: block;
 }
 
-    footer{
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 2rem;
-        background-color: #EC0975;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 0.6rem;
-        letter-spacing: 0.1rem;
-    }
+.gov-logo {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+    max-width: 40%;
+    z-index: 99;
+}
 
-    .rotas{
-        position: absolute;
-        left: 0;
-        top: 90%;
-        max-width: 70%;
-    }
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    z-index: 200;
+    font-size: 0.6rem;
+    letter-spacing: 0.05rem;
+    padding: 0 10px;
+}
 
-    .gov-logo{
-        position: absolute;
-        top: 5%;
-        right: 30%;
-        max-width: 40%;
-        z-index: 99;
-    }
-
+footer p {
+    white-space: nowrap;
+    text-align: center;
 }
 
 
-@media (prefers-reduced-motion: reduce){
+}
 
-    .parallax{
-        transition: none;
-    }
+@media (prefers-reduced-motion: reduce) {
+
+
+.parallax,
+.background,
+.logo-container,
+.inscreva {
+    transition: none;
+}
+
 
 }
