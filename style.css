@@ -157,13 +157,16 @@ footer{
 @media (max-width: 480px) {
 
     .logo-container {
-        top: 40%;
+        top: 35%;
         left: 10%;
         max-width: 100vw;
 
     }
     .logo-container img{
         width: 70%;
+    }
+    .logo-main{
+        width: 2px;
     }
 
     .inscreva {
@@ -173,7 +176,7 @@ footer{
     }
     .parallax{
         width: 100vw;
-        top:10%;
+        top:6%;
         left: 10%;
     }
     .layer-1 img{
