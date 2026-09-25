@@ -196,12 +196,12 @@ footer{
         font-size: small;
         text-align: center;
         position: absolute;
-        transform: translateY(500px);
+        transform: translateY(480px);
 
     }
 
     .logo-container {
-        top: 35%;
+        top: 30%;
         left: 10%;
         max-width: 100vw;
 
