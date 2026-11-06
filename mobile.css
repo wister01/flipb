@@ -97,6 +97,10 @@
         z-index: 1;
     }
 
+    .nav-item:last-child a span {
+        text-transform: none;
+    }
+
     .nav-item a[aria-current="location"] i {
         display: flex;
     }
