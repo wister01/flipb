@@ -1,0 +1,89 @@
+
+{
+  "mesas": [
+    {
+      "id": "mesa-01",
+      "titulo": "O Romance contra os fatos: a invenção do real",
+      "participantes": [
+        "Maria Valéria Rezende | Santos - São Paulo",
+        "Luciany Aparecida | Jaguaquara - Bahia",
+        "Isabor Quintiere | João Pessoa - Paraíba"
+      ],
+      "ementa": "Nem tudo o que é verdadeiro aconteceu exatamente como contamos. O gênero romance conhece essa contradição e faz dela sua matéria. Partindo da Paraíba e Bahia, Maria Valéria Rezende, Luciany Aparecida e Isabor Quintiere escrevem sobre territórios inventados, recusando a ideia de que os fatos sejam suficientes para dar conta de uma vida. Suas personagens habitam margens geográficas, sociais e afetivas e, pela ficção, conquistam o direito de reorganizar o mundo que lhes foi dado. Nesta mesa, inventar o real é disputar quem pode narrá-lo. ",
+      "data": "27/11/2026",
+      "local": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "hora": "09:00",
+      "imagemBackground": "./imgs/mesas/mesa-01.webp"
+    },
+    {
+      "id": "mesa-02",
+      "titulo": "Desvio insólito: a invenção da história",
+      "participantes": [
+        "Bruno Gaudêncio | Campina Grande - Paraíba",
+        "Inocência Mata | Ilha do Príncipe - São Tomé e Príncipe",
+        "Sylvia Brito | João Pessoa - Paraíba"
+      ],
+      "ementa": "A História também é uma forma de invenção. Mas entre aquilo que aconteceu e aquilo que chegou até nós existem o silêncio e as versões de quem pôde contar. Nesta mesa, Bruno Gaudêncio, Inocência Mata e Sylvia Brito partem de diferentes territórios da língua portuguesa para interrogar justamente essas zonas de instabilidade. Da Paraíba a São Tomé e Príncipe, o insólito não é uma fuga do real, mas um desvio necessário para alcançá-lo. Afinal, quem é o narrador das nossas vidas?",
+      "data": "27/11/2026",
+      "local": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "hora": "11:00",
+      "imagemBackground": "./imgs/mesas/mesa-02.webp"
+    },
+    {
+      "id": "mesa-03",
+      "titulo": "Os monstros continentais: a invenção do horror",
+      "participantes": [
+        "Dina Salústio | São Paulo - Brasil",
+        "Luciana de Mello | São Paulo - Brasil",
+        "María Fernanda Ampuero | Guayaquil - Equador"
+      ],
+      "ementa": "Na América Latina, os monstros raramente precisam ser inventados do zero. No meio do furacão Cabo Verde, Equador e Argentina, María Fernanda Ampuero, Luciana de Mello e Dina Salústio fazem do assombro uma linguagem para atravessar as violências de um continente erguido sobre feridas. Em suas obras, o monstruoso pode nascer do corpo e do desejo, mas também da família, da classe, do racismo, do patriarcado e das heranças coloniais. São literaturas que deformam o real para que possamos enxergá-lo melhor",
+      "data": "27/11/2026",
+      "local": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "hora": "14:00",
+      "imagemBackground": "./imgs/mesas/mesa-03.webp"
+    },
+    {
+      "id": "mesa-04",
+      "titulo": " Vidas em movimento: a invenção da cidade",
+      "participantes": [
+        "Gabriela Wiener | Lima - Peru",
+        "Cidinha da Silva | Belo Horizonte - MG",
+        "Nathalia Portázio | Recife - PE"
+      ],
+      "ementa": "Nenhuma cidade existe apenas em seus mapas. Uma cidade também é feita pelos corpos, pelas vidas que acolhe ou expulsa, pelos encontros, deslocamentos e fronteiras que surgem dentro dela. Entre Lima, São Paulo e Recife, Gabriela Wiener, Cidinha da Silva e Nathália Protázio escrevem sobre espaços urbanos em suas crônicas, revelando que habitar uma cidade é disputar suas formas de existência. Em suas obras, movimento é carregar consigo histórias que transformam cada território percorrido. ",
+      "data": "28/11/2026",
+      "local": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "hora": "09:00",
+      "imagemBackground": "./imgs/mesas/mesa-04.webp"
+    },
+    {
+      "id": "mesa-05",
+      "titulo": "A palavra viva: a invenção da linguagem",
+      "participantes": [
+        "Gisela Casimiro | Bissau - Guiné Bissau",
+        "Leda Maria Martins | Rio de Janeiro - RJ",
+        "Jessicalen Conceição | Abreu e Lima - PE"
+      ],
+      "ementa": "Antes de ser escrita, a palavra era corpo. Atravessou gerações sem precisar do papel e fez do tempo um caminho de idas, voltas e permanências. Gisela Casimiro, Leda Maria Martins e Jessicalen Conceição encontram na linguagem uma matéria viva. No enlace África-Brasil, suas vozes são poesia e servem para lembrar que nenhuma língua permanece intacta depois de passar pela carne. Nesta mesa, a palavra não apenas representa o mundo: ela o movimenta. É viva.",
+      "data": "28/11/2026",
+      "local": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "hora": "11:00",
+      "imagemBackground": "./imgs/mesas/mesa-05.webp"
+    },
+    {
+      "id": "mesa-06",
+      "titulo": "Associação Portugal-Brasil 200: O direito de imaginar-se: a invenção da imagem",
+      "participantes": [
+        "Paulo Lins | Rio de Janeiro - RJ",
+        "Adriana Falcão | Rio de Janeiro - RJ",
+        "Leonel Vieira | Miranda do Douro - Portugal"
+      ],
+      "ementa": "A proposta parte do núcleo da curadoria de Bruno Ribeiro: a Afro-Latino-América foi nomeada, classificada e deformada por olhares externos. A mesa desloca essa constatação para o presente. Literatura e cinema não apenas retratam pessoas e territórios; produzem imagens públicas, hierarquias e futuros possíveis. Integrada na programação do Festival, a conversa formulará uma pergunta sobre o futuro, examinando a passagem da imagem imposta à imagem conquistada e, depois, à imagem que circula globalmente, hoje também recriada por plataformas e inteligência artificial.",
+      "data": "28/11/2026",
+      "local": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "hora": "14:00",
+      "imagemBackground": "./imgs/mesas/mesa-06.webp"
+    }
+  ]
+}

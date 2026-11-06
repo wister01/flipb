@@ -1,0 +1,242 @@
+@media (max-width: 768px) {
+    body {
+        padding-bottom: calc(74px + env(safe-area-inset-bottom, 0px));
+    }
+
+    header {
+        position: static;
+        display: block;
+        width: auto;
+        padding: 0;
+    }
+    .hero-brand {
+        top: 25.5%;
+        left: 50%;
+        width: 50vw;
+        transform: translateX(-50%);
+    }
+
+    .logo-fli {
+        width: 100%;
+    }
+
+    .menu {
+        position: fixed;
+        z-index: 1000;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+        background: #ed0874;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0;
+        min-height: 72px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-item {
+        min-width: 0;
+        flex: 0 1 auto;
+    }
+
+    .nav-item a {
+        position: relative;
+        display: flex;
+        height: 72px;
+        min-height: 72px;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: clamp(0.75rem, 3.5vw, 1rem);
+        line-height: 1.15;
+        text-align: center;
+        white-space: nowrap;
+        padding: 0;
+        scale: 1;
+    }
+
+    .nav-item a[aria-current="location"]::before {
+        position: absolute;
+        z-index: 0;
+        top: -20px;
+        bottom: 52px;
+        left: calc(50% - 24px);
+        width: 48px;
+        opacity: 1;
+        background: #ed0874;
+        content: "";
+    }
+
+    .nav-item a i {
+        position: absolute;
+        z-index: 1;
+        top: -16px;
+        left: 50%;
+        display: none;
+        width: 52px;
+        height: 36px;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.65rem;
+        transform: translateX(-50%);
+    }
+
+    .nav-item a span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .nav-item a[aria-current="location"] i {
+        display: flex;
+    }
+
+    body.is-on-hero .nav-item a[aria-current="location"]::before,
+    body.is-on-hero .nav-item a[aria-current="location"] i {
+        display: none;
+    }
+
+    .nav-item a:focus-visible {
+        outline-color: #fff;
+        outline-offset: -2px;
+    }
+
+    .nav-item a:hover,
+    .nav-item a:focus-visible {
+        opacity: 1;
+        padding: 0;
+        scale: 1;
+    }
+
+    .social {
+        position: static;
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    @media (max-width: 700px) {
+        .hero-brand {
+            top: 40%;
+            left: 0;
+            width: 100%;
+            transform: none;
+        }
+
+        .hero-brand .logo-fli {
+            width: min(68vw, 360px);
+            margin-left: 6vw;
+        }
+    }
+
+    .programacao,
+    .autores,
+    .mesas,
+    .shows,
+    .flipp {
+        scroll-margin-top: 16px;
+    }
+
+    .programacao {
+        background-image: none;
+    }
+
+    .depoimentos-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 40px;
+    }
+
+    .depoimentos-pessoa {
+        flex-basis: auto;
+        width: min(100%, 280px);
+        align-self: center;
+    }
+
+    .mesas {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .mesas-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .mesa-card {
+        min-height: clamp(280px, 52vw, 380px);
+        padding: 18px;
+    }
+
+    .mesa-card-numero {
+        font-size: clamp(1.7rem, 6vw, 2.4rem);
+    }
+
+    .mesa-info h3 {
+        font-size: clamp(1rem, 3.2vw, 1.3rem);
+    }
+
+    .mesa-dialog-conteudo {
+        padding: 56px 24px 28px;
+    }
+
+    .card-carrousel {
+        overflow-x: auto;
+        overflow-y: hidden;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        touch-action: pan-x pan-y;
+    }
+
+    .card-carrousel::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card-track {
+        animation: none;
+        will-change: auto;
+    }
+
+    .artist-card {
+        flex-basis: min(78vw, 360px);
+        width: min(78vw, 360px);
+        scroll-snap-align: center;
+        touch-action: pan-x pan-y;
+    }
+
+    .artist-card.is-clone {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .nav-bar {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    .nav-item a {
+        font-size: 1.275rem;
+        letter-spacing: 0;
+    }
+
+    .mesas-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 999px) {
+    .mesas-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

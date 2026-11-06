@@ -1,0 +1,156 @@
+[
+    {
+        "id": "cf74989243cb6206",
+        "nome": "Bruno Gaudéncio",
+        "cidade": "Campina Grande - PB",
+        "foto": "autores_uploads/fd7c23cc66220407f702d280ba05719d.webp",
+        "mini_bio": "Bruno Gaudêncio é escritor, historiador e professor, natural de Campina Grande (PB). Formado em Jornalismo e História pela UEPB, é mestre pela UFCG e doutor em História Social pela USP. Autor e organizador de vinte e cinco livros, entre coletâneas de poemas, contos, ensaios, novelas e roteiros de quadrinhos biográficos. Entre suas obras estão: Ariano Suassuna em Quadrinhos (2015), A Invenção do Cavaleiro da Esperança (2023) e A pele da minha casa (2025). Hoje, dedica-se à crônica, ao ensaio e a projetos biográficos, como a biografia do poeta e ativista negro Arnaldo Xavier e do crítico de artes Ruben Navarra."
+    },
+    {
+        "id": "7d7067b3b4ff199d",
+        "nome": "Cidinha da Silva",
+        "cidade": "Belo Horizonte - MG",
+        "foto": "autores_uploads/7f6925669e235edb3153252952b6700c.webp",
+        "mini_bio": "Cidinha da Silva (MG) é escritora e ensaísta. Tem 24 livros publicados, entre eles, os premiados: “Um Exu em Nova York” e \"O mar de Manu\". Seu livro \"Vamos falar de relações raciais? Crônicas para debater o antirracismo\" (Autêntica) foi semifinalista do Jabuti Acadêmico e finalista do Jabuti, ambos em 2025. Suas obras mais recentes são: “Só bato em cachorro grande, do meu tamanho ou maior – 81 lições do Método Sueli Carneiro” (Record) e “Quando borboletas furiosas se tornam mulheres negras – Nós e os livros (Relicário). É cronista do jornal Rascunho."
+    },
+    {
+        "id": "a86c636fba565fd4",
+        "nome": "Gabriela Weiner",
+        "cidade": "Lima - Peru",
+        "foto": "autores_uploads/7cf7e198b179cc1a9066227ea57b171b.webp",
+        "mini_bio": "Gabriela Wiener é uma das vozes imprescindíveis da literatura latino-americana contemporânea na diáspora. Escritora, poeta e cronista peruana radicada na Espanha, fez do corpo um território político e narrativo. Sua obra desmonta as ficções do poder, do patriarcado, do colonialismo e dos imperativos da heteronorma e da branquitude como sistema de pensamento.Suas primeiras histórias de jornalismo gonzo foram publicadas na revista de jornalismo narrativo Etiqueta Negra. É autora dos livros Sexografías, Llamada perdida, Dicen de mí e dos livros de poesia Ejercicios para el endurecimiento del espíritu e Una pequeña fiesta llamada Eternidad. Ganhou o Prêmio Nacional de Jornalismo de seu país."
+    },
+    {
+        "id": "7c12f12933da913c",
+        "nome": "Gisela Casimiro",
+        "cidade": "Bissau - Guiné Bissau",
+        "foto": "autores_uploads/46e2120b89b58104a8d387885135f18c.webp",
+        "mini_bio": "Gisela Casimiro nasceu na Guiné-Bissau em 1984. É escritora, artista e tradutora. Publicou os livros de poesia Erosão e Giz, este último com prefácio de Emicida, e o conjunto de crónicas Estendais. É coargumentista da série Novas Narrativas de Caça e autora das peças Casa com Árvores Dentro e Vida: Uma Aplicação. Apoiou a dramaturgia de Blackface!, de Marco Mendonça, Bixa Bixo, do colectivo Afrontosas, e a criação de Belonging, de Raquel André. Foi residente na YBYTU, em São Paulo, e na T-Yard, em Bergen. Expôs, entre outros, no Museu Afro-Brasil Emanoel Araújo. É cofundadora da UNA – União Negra das Artes."
+    },
+    {
+        "id": "a5f3bd64e2a43fb1",
+        "nome": "Adriana Falcão",
+        "cidade": "Rio de Janeiro - RJ",
+        "foto": "autores_uploads/950fe2ae8324d72043572f831cbd36f1.jpg",
+        "mini_bio": "Escritora premiada de peças de teatro, crônicas e livros para crianças, jovens e\r\nadultos. Mas também encanta o público com seu talento nos roteiros que criou\r\npara programas de TV na Rede Globo (Segunda maior rede de televisão\r\ncomercial do Mundo), séries como : A Comédia da Vida Privada, A Grande\r\nFamília,  As Brasileiras, Louco por Elas, Mister Brau, Amor e Sorte, As Filhas de\r\nEva;  para o cinema ‘’O Auto da Compadecida’’;  A Máquina; O Ano em que\r\nMeus Pais Saíram de Férias; Fica Comigo Essa Noite; Mulher Invisível; Eu e o\r\nmeu Guarda-Chuva; Se eu Fosse Você 1 e 2 e no teatro A Máquina, Tarja Preta,\r\nMania de Explicação, Ideia Fixa, e A Gaiola.\r\nAdriana já publicou com grande sucesso diversos livros como: A Máquina; O\r\nDoído da Garrafa; O Pequeno Dicionário de Palavras ao Vento; PS Beijei; Sete\r\nHistórias para Contar; A Gaiola; A Comédia dos Anjos; Luna Clara & Apolo Onze;\r\nMania de Explicação; Sete histórias para contar; A Tampa do Céu, A Gaiola, Lá\r\nDentro Tem Coisa, Queria Ver Você Feliz, C"
+    },
+    {
+        "id": "a7851813383f29fc",
+        "nome": "Maria Fernanda Ampuero",
+        "cidade": "Guaiaquil - Equador",
+        "foto": "autores_uploads/18ceb9778573732eeb3b5a47f448b38c.jpg",
+        "mini_bio": "María Fernanda Ampuero (Ecuador, 1976), escritora y periodista, fue elegida en 2012 una de las latinoamericanas más relevantes de Madrid, ciudad en la que vive desde 2005, por su trabajo de cronista de la comunidad migrante. Su primer libro de relatos, Pelea de Gallos (2018), lleva veinticinco ediciones y ha sido traducido a más de diez idiomas. Recibió el premio Joaquín Gallegos Lara a mejor libro del año y fue elegido por The New York Times en español como uno de los diez libros del año. Sacrificios Humanos (2021) ganó el segundo lugar en el premio Tigre Juan y fue elegido uno de los diez mejores libros de terror del año por The New York Times. Sus últimos libros son Visceral (2024) y Dantescas, antología de autoras que bajaron a los infiernos (2024) y La puerta de no retorno (2026). \r\n En verano de 2024 recibió la prestigiosa residencia Civitella Rainieri que concede un jurado a artistas destacados a nivel mundial."
+    },
+    {
+        "id": "b70d4f1c8402bc9b",
+        "nome": "Dina Salústio",
+        "cidade": "Santo Antão - Cabo Verde",
+        "foto": "autores_uploads/57d6225f735afd83b10850c3b7802d59.webp",
+        "mini_bio": "Sócia fundadora da Associação dos Escritores Cabo-verdianos. Membro fundador da Organização das Mulheres de Cabo Verde; Sócia fundadora da Sociedade Cabo-verdiana de Autores; Membro fundador da Academia Cabo-verdiana de Letras; Membro fundador da Sociedade Literária PEN Clube de Cabo Verde. Membro da Academia Sergipana de Letras (Brasil); Membro da Academia Ludovicense de Letras (Brasil); Presidente Honorária da Sociedade da Cultura Latina Brasileira para África."
+    },
+    {
+        "id": "4d35f555a9e087f9",
+        "nome": "Inocência Matta",
+        "cidade": "Ilha de Príncipe - São Tomé e Príncipe",
+        "foto": "autores_uploads/d8665aef21a3ae396a4417081cee8d39.webp",
+        "mini_bio": "Inocência Mata é doutora em Letras pela Universidade de Lisboa, especialidade em Literaturas Africanas, com pós-doutoramento em Estudos Pós-coloniais (Postcolonial Studies, Identity, Ethnicity, and Globalization, Universidade de Califórnia, Berkeley). Professora da Faculdade de Letras da Universidade de Lisboa (FLUL) na Área de Literaturas, Artes e Culturas e membro do Centro de Estudos Comparatistas (CEC/FLUL). De 2014 a 2028 foi professora visitante na Universidade de Macau, onde foi deputy head do Departamento de Português e directora do Centro de Estudos Luso-Asiáticos."
+    },
+    {
+        "id": "c3bec6a164b53d39",
+        "nome": "Isabor Quintiere",
+        "cidade": "João Pessoa - PB",
+        "foto": "autores_uploads/a75da0076c9edb60c3c87ecb91c552be.webp",
+        "mini_bio": "Isabor Quintiere nasceu em João Pessoa, Paraíba. É graduada e mestra em Letras pela UFPB, atuando como professora na rede estadual paraibana e na pós-graduação em escrita criativa da Uniesp. Autora de A cor humana (2018), Rituália (2023) e São Amaranto (2025), encontra inspiração para sua prosa principalmente na tradição de literatura fantástica latino-americana, na ficção científica e no surrealismo. Isabor recebeu o Prêmio Odisseia com seu conto \"Madres\" em 2019 e participou do SESC Arte da Palavra em 2024, além de já ter integrado múltiplas coletâneas de alcance nacional e internacional."
+    },
+    {
+        "id": "89d37b885725f4ff",
+        "nome": "Jessicalen Conceição",
+        "cidade": "Abreu e Lima - Pernambuco",
+        "foto": "autores_uploads/b4e339c18d7545ec82ed32b1f73c4581.webp",
+        "mini_bio": "Jessicalen Conceição de Oliveira é poeta, atriz, oficineira, produtora cultural e estudante de Teatro na UFPE, com trajetória destacada na literatura marginal e nas artes periféricas. Vice-campeã nacional de poesia falada Slam em 2023, desenvolve ações de educação antirracista em escolas, centros de ressocialização juvenil e territórios populares, além de passar por grandes festas literárias como Flic, Flup, Fliperifa e Flip,é também idealizadora e curadora da Festa Literária de Abreu e Lima (FLAB)."
+    },
+    {
+        "id": "b734cb44e38518fe",
+        "nome": "Leda Maria Martins",
+        "cidade": "Rio de Janeiro - RJ",
+        "foto": "autores_uploads/e93f618886661c59600cc7eca919fef9.webp",
+        "mini_bio": "Leda Maria Martins é poeta, dramaturga, ensaista e professora. Doutora em Letras/Literatura Comparada pela Universidade Federal de Minas Gerais (UFMG, 1991), Mestre em Artes pela Indiana University (1981) e Graduação m Letras pela FALE/UFMG (1978). Possui pós-doutorados em Performance Studies pela New York University, Department of Performances Studies, e em Performance e Rito pela Universidade Federal Fluminense (UFF).Professora Emérita da Universidade Federal de Minas Gerais, título outorgado em 2025."
+    },
+    {
+        "id": "8d2e6d1a37c52854",
+        "nome": "Leonardo Padura",
+        "cidade": "Havana - Cuba",
+        "foto": "autores_uploads/a5155b69f9b9fbd3dd4468d02922df42.webp",
+        "mini_bio": "Nascido em Havana, em 1955, Leonardo Padura Fuentes é pós-graduado em literatura hispano americana, romancista, ensaísta, jornalista e autor de roteiros para cinema. Ganhou reconhecimento internacional com a série de romances policiais Estações Havana, estrelada pelo investigador Mario Conde, já traduzida em mais de quinze países, vencedora de diversos prêmios internacionais e adaptada para o cinema e a TV. Pelo conjunto de sua obra, Padura recebeu o Premio Nacional de Literatura de Cuba, em 2012, o Princesa de Asturias, da Espanha, em 2015, e o Premio Internacional de Novela Histórica Barcino, em 2018. Foi indicado aos prêmios Médicis 2021 e Femina 2021, na categoria romance estrangeiro. Em 2023, recebeu o prêmio Pepe Carvalho em reconhecimento à sua carreira literária."
+    },
+    {
+        "id": "a04f21d210c57550",
+        "nome": "Leonel Vieira",
+        "cidade": "Miranda do Douro - Portugal",
+        "foto": "autores_uploads/e9a0efef012208a59374c051a7f2bae1.webp",
+        "mini_bio": "Leonel Vieira é um dos realizadores e produtores portugueses com maior êxito internacional. Realizou 5 séries e 14 longas-metragens, algumas das quais integram o top 10 dos filmes portugueses mais vistos da história e detém o maior box-office do cinema em Portugal com o filme “O Pátio das Cantigas” (2015).\r\nA sua série “Conexão”, uma coprodução com Espanha sobre narcotráfico na Galiza, foi nomeada para o FIPA d’OR (Biarritz, 2010) como Melhor Série de TV."
+    },
+    {
+        "id": "244cfaf0b42ab219",
+        "nome": "Luciana de Mello",
+        "cidade": "Buenos Aires - Argentina",
+        "foto": "autores_uploads/301435d67202b0b0ab33faafd62b4d03.webp",
+        "mini_bio": "Luciana De Mello é escritora, roteirista e professora afro-indígena, nascida em Buenos Aires, em 1979. É mãe, autora do romance Mandinga (Seix Barral, Random House) e coautora de Ninguna calle termina en la esquina – Historias que se leen y se escriben en la cárcel (FILO:UBA), uma crônica-antologia sobre a oficina de leitura e escrita que cofundou no Centro Universitário da Prisão de Devoto, em Buenos Aires."
+    },
+    {
+        "id": "2ba89f8027b8a5dc",
+        "nome": "Luciany Aparecida",
+        "cidade": "Jaguaquara - BA",
+        "foto": "autores_uploads/9b6b2c44024d2c429228272f127f91f6.webp",
+        "mini_bio": "Luciany Aparecida é autora de Mata Doce, romance vencedor do Prêmio São Paulo de Literatura 2024, foi finalista do Prêmio Jabuti e semifinalista do Prêmio Oceanos 2024. Escreveu Aziri (2026), Macala (2022), poemas, que tem como referência fotografias do século XIX."
+    },
+    {
+        "id": "6a9015fd1f049c22",
+        "nome": "Maria Valéria Rezende",
+        "cidade": "Santos - SP",
+        "foto": "autores_uploads/6cc70df67d1506da9e71ba548a856ec2.webp",
+        "mini_bio": "Maria Valéria Rezende nasceu em 1942, em Santos (SP), e vive na Paraíba. É escritora e educadora. Publicou vários livros e ganhou 4 Prêmios Jabuti, além de outros importantes prêmios literários. Entre seus livros premiados estão No Risco do Caracol, Ouro Dentro da Cabeça, Quarenta Dias e Outros Cantos."
+    },
+    {
+        "id": "30b4cfb39ee07857",
+        "nome": "Nathália Protázio",
+        "cidade": "Jupi - Pernambuco",
+        "foto": "autores_uploads/91a95bf753b7b8ae66fe782b35515972.webp",
+        "mini_bio": "Nathallia Protazio é pernambucana. Farmacêutica, mestre em Psicologia Social pela UFRGS e especialista em Escrita Criativa pela LabPub. Autora de Aqui dentro (Venas Abiertas, 2020), Pela hora da morte (Jandaíra, 2022), A faxineira mais bem paga do Bom Fim (Zouk, 2024), Duas Vanusas (Coragem, 2025) e As mãos de quem não espera (Zouk, 2026)."
+    },
+    {
+        "id": "e5896ee625e1231c",
+        "nome": "Ondjaki",
+        "cidade": "Luanda - Angola",
+        "foto": "autores_uploads/ea1f669b4ab579211e628bf935766530.webp",
+        "mini_bio": "ONDJAKI, nasceu em Luanda em 1977. É doutorado em Estudos Africanos (L’Orientale, Napoli/Itália). Prosador e poeta, também escreve para cinema. É membro da União dos Escritores Angolanos. Recebeu os prémios Sagrada Esperança (Angola, 2004); Conto – A.P.E. (Portugal, 2007); FNLIJ (Brasil, 2010 & 2014); JABUTI juvenil (Brasil, 2010); prémio José Saramago (Portugal, 2013) e prémio Littérature-Monde (França, 2016) com o livro “Os Transparentes”. Está traduzido para francês, espanhol, italiano, alemão, inglês, sérvio e sueco. Ocasionalmente partilha oficinas de escrita criativa. Em 2023 (Univ. de Évora, Portugal), recebeu o prémio Vergílio Ferreira pelo conjunto da sua obra."
+    },
+    {
+        "id": "55ef7c00ffce9ab9",
+        "nome": "Paulo Lins",
+        "cidade": "Rio de Janeiro - RJ",
+        "foto": "autores_uploads/d3a67dc5cc013e32fbf29d16713cbfcc.webp",
+        "mini_bio": "Paulo Lins é poeta, romancista, roteirista de cinema e televisão e professor licenciado em Língua Portuguesa e Brasileira pela Universidade Federal do Rio de Janeiro."
+    },
+    {
+        "id": "8d40a747802226b2",
+        "nome": "Socorro Acioli",
+        "cidade": "Fortaleza - CE",
+        "foto": "autores_uploads/c55b34d49d2e4e0e59b5fe56b8246db9.webp",
+        "mini_bio": "Socorro Acioli é escritora e palestrante, reconhecida por sua atuação na literatura e educação. Nascida em Fortaleza em 1975, é autora de 24 livros, incluindo romances, crônicas e literatura infantojuvenil. Seu mais recente lançamento é Oração para desaparecer (Companhia das Letras). Mestre e doutora em Literatura, venceu o Prêmio Jabuti em 2013 com Ela tem olhos de céu e seu romance A cabeça do Santo foi finalista do Los Angeles Times Book Prize e traduzido para o inglês, espanhol, francês e italiano. Em 2026 atingiu a marca de 500 mil livros vendidos.  Seu romance a cabeça do santo será tema do carnaval da Escola de Samba Unidos da Tijuca em 2027."
+    },
+    {
+        "id": "32dddc54d5c65233",
+        "nome": "Sylvia Brito",
+        "cidade": "Campina Grande - PB",
+        "foto": "autores_uploads/f7dd9d69a89e02bc8b64d5b06b41521f.webp",
+        "mini_bio": "Sylvia Brito é doutora em História da América pela Universidade de Salamanca. Foi professora da rede pública e diretora de Pesquisa e Documentação do IPHAEP. É pesquisadora associada do Museu Marítimo do Extremo Oriental das Américas (EXEA) e investigadora principal do Projeto Resgate Brasil–Espanha, financiado pela União Europeia com a cooperação do governo da Espanha. O projeto pesquisa arquivos espanhóis em busca de documentação sobre o Brasil, recuperando vozes e trajetórias historicamente silenciadas e refletindo sobre memória, apagamentos e reparação histórica, questões que permanecem centrais no presente."
+    },
+    {
+        "id": "c38ccf3f9e07c59b",
+        "nome": "Anelis Assumpção",
+        "cidade": "São Paulo - SP",
+        "mini_bio": "\"Eu me chamo Anelis. Escrevo desde pequena, mas só adulta as pessoas puderam ver meus escritos em formas de letras de música pois eu lancei quatro discos com muitas composições minhas. Este é meu primeiro livro. Eu gosto muito das palavras e das milhares de possibilidades de combinações que posso fazer com elas, que vão do pensamento pra língua, e depois pro papel. Cantar o que eu escrevo é muito legal. É quando as palavras viram sons. Minha irmã Serena também gostava muito de escrever e com ela aprendi que, através das palavras, as coisas podem ser da cor que eu quiser.\"",
+        "foto": "autores_uploads/63bacd30c095b6bbd8ef9845c940cd07.webp"
+    }
+]

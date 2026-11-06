@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fli Paraíba</title>
+    <link rel="stylesheet" href="style.css?v=20261105-1">
+    <link rel="stylesheet" href="mobile.css?v=20261105-1">
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+</head>
+<body>
+    <header>
+        <nav class="menu" aria-label="Navegação principal">
+            <ul class="nav-bar">
+                <li class="nav-item"><a href="#programacao"><i class="fa-solid fa-calendar-days" aria-hidden="true"></i><span>PROGRAMAÇÃO</span></a></li>
+                <li class="nav-item"><a href="#autores"><i class="fa-solid fa-book" aria-hidden="true"></i><span>AUTORES</span></a></li>
+                <li class="nav-item"><a href="#mesas"><i class="fa-brands fa-discourse"></i><span>MESAS</span></a></li>
+                <li class="nav-item"><a href="#shows"><i class="fa-solid fa-music" aria-hidden="true"></i><span>SHOWS</span></a></li>
+                <li class="nav-item"><a href="#secao-05"><i class="fa-solid fa-user" aria-hidden="true"></i><span>FLIPB</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero-brand">
+            <img class="logo-fli" src="imgs/logo_hero.png" alt="FLIP: Rotas, a invenção da Afro-Latino-América">
+            <div class="social" aria-label="Redes sociais">
+                <a href="https://www.instagram.com/fliparaiba2026/" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/@SecultPara%C3%ADba" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <h1 id="hero-title" class="visually-hidden">Festival Literário Internacional da Paraíba 2026</h1>
+    </section>
+
+    <section class="programacao" id="programacao">
+        <h2 class="section-title">PROGRAMAÇÃO</h2>
+        <div class="programacao-content">
+            <div class="programacao-filters" aria-label="Filtros da programação">
+                <div class="filter-field">
+                    <label class="visually-hidden" for="filter-polo">Filtrar por polo</label>
+                    <select id="filter-polo" class="programacao-select" disabled>
+                        <option value="">TODOS OS POLOS</option>
+                    </select>
+                </div>
+                <div class="filter-field">
+                    <label class="visually-hidden" for="filter-date">Filtrar por data</label>
+                    <select id="filter-date" class="programacao-select" disabled>
+                        <option value="">TODAS AS DATAS</option>
+                    </select>
+                </div>
+            </div>
+            <p class="programacao-status" id="programacao-status" role="status" aria-live="polite">
+                Carregando a programação...
+            </p>
+            <div class="event-grid" id="event-list" aria-live="polite"></div>
+            <nav class="programacao-pagination" id="programacao-pagination" aria-label="Paginação da programação" hidden>
+                <button class="pagination-button" id="previous-page" type="button" aria-label="Página anterior">
+                    <span aria-hidden="true"></span>
+                </button>
+                <span class="pagination-status" id="pagination-status" aria-live="polite"></span>
+                <button class="pagination-button" id="next-page" type="button" aria-label="Próxima página">
+                    <span aria-hidden="true"></span>
+                </button>
+            </nav>
+        </div>
+    </section>
+
+    <section class="autores" id="autores" aria-labelledby="autores-title">
+        <div class="autores-content">
+            <h2 class="section-title" id="autores-title">AUTORES CONFIRMADOS</h2>
+            <div class="autores-grid" aria-live="polite">
+                <p class="autores-empty" role="status">
+                    Carregando autores...
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mesas" id="mesas" aria-labelledby="mesas-title">
+        <div class="mesas-content">
+            <h2 class="section-title" id="mesas-title">MESAS</h2>
+            <div class="mesas-grid" aria-live="polite">
+                <p class="mesas-status" role="status">Carregando mesas...</p>
+            </div>
+        </div>
+    </section>
+
+    <dialog class="mesa-dialog" aria-labelledby="mesa-dialog-titulo" aria-modal="true">
+        <div class="mesa-dialog-conteudo">
+            <button class="mesa-dialog-fechar" type="button" aria-label="Fechar detalhes da mesa" autofocus>&times;</button>
+            <h2 class="mesa-dialog-titulo" id="mesa-dialog-titulo"></h2>
+            <section class="mesa-dialog-participantes" aria-labelledby="mesa-dialog-participantes-titulo">
+                <h3 id="mesa-dialog-participantes-titulo">Participantes</h3>
+                <ul class="mesa-dialog-lista"></ul>
+            </section>
+            <div class="mesa-dialog-data">
+                <p class="mesa-dialog-data-valor"></p>
+                <p class="mesa-dialog-hora-valor"></p>
+                <p class="mesa-dialog-local-valor"></p>
+            </div>
+            <section class="mesa-dialog-ementa" aria-labelledby="mesa-dialog-ementa-titulo">
+                <h3 id="mesa-dialog-ementa-titulo">Ementa</h3>
+                <p class="mesa-dialog-ementa-texto"></p>
+            </section>
+        </div>
+    </dialog>
+
+    <dialog class="autor-dialog" aria-labelledby="autor-dialog-nome" aria-describedby="autor-dialog-bio">
+        <button class="autor-dialog-fechar" type="button" aria-label="Fechar detalhes do autor">&times;</button>
+        <img class="autor-dialog-foto" src="" alt="">
+        <div class="autor-dialog-conteudo">
+            <h2 class="autor-dialog-nome" id="autor-dialog-nome"></h2>
+            <p class="autor-dialog-bio" id="autor-dialog-bio"></p>
+        </div>
+    </dialog>
+
+    <section class="shows" id="shows" aria-labelledby="shows-title">
+        <div class="shows-content">
+            <h2 class="section-title" id="shows-title">SHOWS</h2>
+            <div class="card-carrousel" aria-live="polite" aria-label="Atrações musicais">
+                <p class="shows-status" role="status" aria-live="polite">Carregando atrações...</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="depoimentos" aria-label="Depoimento do governador da Paraíba">
+        <div class="depoimentos-content">
+            <p class="depoimentos-texto"><span>O Fli Paraíba é</span> um encontro de literatura, música e diferentes manifestações culturais que ocupa o Centro Histórico de João Pessoa e reúne escritores, artistas e leitores em torno da diversidade e da produção cultural. Em sua terceira edição, o festival conta com 15 polos culturais, homenageando personalidades que fazem parte da nossa história e aproximando o público de diferentes expressões artísticas.
+
+            O tema deste ano, “Rotas: A Invenção da Afro-Latino-América”, traz uma reflexão importante sobre nossas origens e sobre a riqueza cultural que nasce dos encontros entre diferentes povos. Valorizar essa história é também reconhecer a força da nossa identidade, dar visibilidade a vozes que ajudaram a construir quem somos e compreender que a diversidade é uma das nossas maiores riquezas.
+
+            Acredito que a cultura precisa estar cada vez mais presente na vida das pessoas. É por meio dela que conhecemos melhor nossas origens, ampliamos nossos olhares e damos espaço a histórias e vozes que ajudam a construir quem somos. É essa Paraíba, que valoriza sua identidade, reconhece sua diversidade e mantém suas portas abertas ao mundo, que queremos fortalecer.</p>
+            <div class="depoimentos-pessoa">
+                <img src="./imgs/lucas.webp" alt="Lucas Ribeiro">
+                <h4>Lucas Ribeiro</h4>
+                <p>Governador do Estado da Paraíba</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flipp secao-galeria" id="secao-05" aria-labelledby="galeria-titulo">
+        <h3 class="section-title galeria-titulo" id="galeria-titulo">FLI PARAÍBA</h3>
+        <p class="sub">Durante os dias 27, 28 e 29 de novembro de 2025, o Centro Cultural São Francisco recebeu o  2º Festival Literário Internacional da Paraíba (FLIParaíba).</p>
+
+        <div class="galeria-grid" aria-label="Galeria de imagens do FLI Paraíba">
+            <div class="galeria-item galeria-item-01">
+                <!-- IMAGEM 01: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f1.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-02">
+                <!-- IMAGEM 02: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f2.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-03">
+                <!-- IMAGEM 03: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f3.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-04">
+                <!-- IMAGEM 04: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f4.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-05">
+                <!-- IMAGEM 05: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f5.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-06">
+                <!-- IMAGEM 06: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f6.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-07">
+                <!-- IMAGEM 07: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f7.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-08">
+                <!-- IMAGEM 08: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f8.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-09">
+                <!-- IMAGEM 09: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f9.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-10">
+                <!-- IMAGEM 10: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f10.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-11">
+                <!-- IMAGEM 11: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f11.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-12">
+                <!-- IMAGEM 12: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f12.webp" alt="">
+            </div>
+            <div class="galeria-item galeria-item-13">
+                <!-- IMAGEM 13: substitua o caminho abaixo pelo arquivo desejado -->
+                <img src="./fotos/f13.webp" alt="">
+            </div>
+        </div>
+
+        <div class="galeria-descricao">
+            <h4 class="flip-titulo">Nossa Língua, Nossa Gente Ancestralidade, Identidade e o Futuro da Democracia
+            </h4>
+            <p>Com o tema Nossa Língua, Nossa Gente - Ancestralidade, Identidade e o Futuro da Democracia, o festival reuniu literatura, música, debates, artes e manifestações das comunidades tradicionais, levando mais de 18 mil pessoas ao Centro Histórico de João Pessoa. 
+            </p>
+
+        </div>
+
+        <dialog class="galeria-modal" aria-label="Imagem ampliada da galeria">
+            <button class="galeria-modal-fechar" type="button" aria-label="Fechar imagem ampliada">&times;</button>
+            <img class="galeria-modal-imagem" src="" alt="">
+        </dialog>
+    </section>
+
+
+
+<section class="logos" id="logos">
+    <div class="realiza">
+        <h4>REALIZAÇÃO</h4>
+        <img src="./logos/realiza.webp" alt="Logo da realização do evento">
+    </div>
+    <div class="apoio">
+        <h4>APOIO</h4>
+        <img src="./logos/APOIO.webp" alt="Logo do apoio do evento">
+    </div>
+    <div class="parceiros">
+        <h4>PARCEIROS</h4>
+        <div class="logos-part">
+                    <img src="./logos/APBRA.webp" alt="Logo dos parceiros do evento">
+                    <img class="patua" src="./logos/PATUA.webp" alt="Logo dos parceiros do evento">
+                    <img src="./logos/BOITEMPO.webp" alt="Logo dos parceiros do evento">
+                    <img src="./logos/COMPANHIA.webp" alt="Logo dos parceiros do evento">
+                    <img src="./logos/MOINHOS.webp" alt="Logo dos parceiros do evento">
+                    <img src="./logos/COMIZ.webp" alt="Logo dos parceiros do evento">
+                    <img src="./logos/ARQUI.webp" alt="Logo dos parceiros do evento">
+        </div>
+    </div>
+</section>
+
+<script src="script.js?v=20261105"></script>
+
+
+</body>
+</html>

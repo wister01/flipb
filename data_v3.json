@@ -1,0 +1,1370 @@
+{
+  "polos": [
+    "POLO ZÉ LIMEIRA | AVENIDA GENERAL OSÓRIO",
+    "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+    "POLO ZABÉ DA LOCA | PRAÇA PEDRO AMÉRICO",
+    "POLO MÃE RITA PRETA | CARAVELA CULTURAL",
+    "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+    "POLO JOSÉ MARIA DOS SANTOS | BAR DO BODE",
+    "POLO GLAUCO ANDREZA | GENERAL STORE",
+    "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+    "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+    "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+    "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+    "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+    "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+    "POLO ARNALDO XAVIER | CASA DEMÉTRIUS MONTENEGRO",
+    "POLO INÁCIO DA CATINGUEIRA | ACADEMIA PARAIBANA DE LETRAS"
+  ],
+  "datas": [
+    "26/11/2026 (QUINTA-FEIRA)",
+    "27/11/2026 (SEXTA-FEIRA)",
+    "28/11/2026 (SÁBADO)"
+  ],
+  "programacao": [
+    {
+      "polo": "POLO ZÉ LIMEIRA | AVENIDA GENERAL OSÓRIO",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Feira de livros",
+      "convidados": "Espaço FliParaíba\nLivraria A União | João Pessoa - PB\nPatuá | São Paulo - SP\nLivraria do Luiz | João Pessoa - PB\nArribaçã | Cajazeiras - PB\nDromedário | João Pessoa - PB\nSebo Encantado do Cordel| Natal - RN\nO Sebo Cultural | João Pessoa - PB\nLeevro | João Pessoa - PB)\nEspaço Cordel | João Pessoa - PB\nLivraria Leitura | João Pessoa - PB\nCEPE | Recife - PE\nEditora Sanhauá | João Pessoa - PB\nCafé das Letras | João Pessoa - PB\nEditora Ideia | João Pessa - PB\nEspaço das Academias\nPalavra Encantada | Recife - PE\nEditora Grafset | João Pessoa - PB\nHélio Books | João Pessoa - PB\nUnião Brasileira de Escritores | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ZÉ LIMEIRA | AVENIDA GENERAL OSÓRIO",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "PeriFeirinha",
+      "convidados": ""
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "18:00",
+      "titulo": "Cerimônia de Abertura",
+      "convidados": "-"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "18:30",
+      "titulo": "Bate-papo de abertura\n\"De Candeia a Macondo: uma invenção latino-americana\"",
+      "convidados": "Socorro Acioli | Fortaleza - CE\nMediação: Thays Albuquerque | Recife - PE"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "20:00",
+      "titulo": "Sessão de Autógrafos",
+      "convidados": "Socorro Acioli | Fortaleza - CE"
+    },
+    {
+      "polo": "POLO ZABÉ DA LOCA | PRAÇA PEDRO AMÉRICO",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "21:00",
+      "titulo": "Concerto de Abertura",
+      "convidados": "Orquestra Sinfônica da Paraíba convida Nação Zumbi | Recife - PE\n\"30 anos de Afrociberdelia\""
+    },
+    {
+      "polo": "POLO MÃE RITA PRETA | CARAVELA CULTURAL",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "22:00",
+      "titulo": "After",
+      "convidados": "Pedecoco | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "15:00",
+      "titulo": "Casa FLIC",
+      "convidados": "ColaBora! FLIC - Feira solidária da FLIC"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "22:00",
+      "titulo": "After",
+      "convidados": "Jerson Set List 100% Vinil | João Pessoa - PB (Entrada: R$ 5,00)"
+    },
+    {
+      "polo": "POLO JOSÉ MARIA DOS SANTOS | BAR DO BODE",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "22:00",
+      "titulo": "After",
+      "convidados": "Derrame Primata | João Pessoa - PB\nDJ Fornox | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "26/11/2026 (QUINTA-FEIRA)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "Trio Surreal | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ZÉ LIMEIRA | AVENIDA GENERAL OSÓRIO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "09:00",
+      "titulo": "Feira de livros",
+      "convidados": "Espaço FliParaíba\nLivraria A União | João Pessoa - PB\nPatuá | São Paulo - SP\nLivraria do Luiz | João Pessoa - PB\nArribaçã | Cajazeiras - PB\nDromedário | João Pessoa - PB\nSebo Encantado do Cordel| Natal - RN\nO Sebo Cultural | João Pessoa - PB\nLeevro | João Pessoa - PB)\nEspaço Cordel | João Pessoa - PB\nLivraria Leitura | João Pessoa - PB\nCEPE | Recife - PE\nEditora Sanhauá | João Pessoa - PB\nCafé das Letras | João Pessoa - PB\nEditora Ideia | João Pessa - PB\nEspaço das Academias\nPalavra Encantada | Recife - PE\nEditora Grafset | João Pessoa - PB\nHélio Books | João Pessoa - PB\nUnião Brasileira de Escritores | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ZÉ LIMEIRA | AVENIDA GENERAL OSÓRIO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "09:00",
+      "titulo": "PeriFeirinha",
+      "convidados": ""
+    },
+    {
+      "polo": "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "09:00",
+      "titulo": "Oficina \"Escrita Criativa\"",
+      "convidados": "Débora Gil Pantaleão | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "13:00",
+      "titulo": "Oficina \"Roteiro Cinematográfico\"",
+      "convidados": "Marcel Vieira | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "09:00",
+      "titulo": "Mesa 1\nO romance contra os fatos: a invenção do real",
+      "convidados": "Maria Valéria Rezende | Santos - SP\nLuciany Aparecida | Jaguaquara - BA\nIsabor Quintiere | João Pessoa - PB\nMediação: Cristhiano Aguiar | Campina Grande - PB"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:00",
+      "titulo": "Mesa 2\nDesvio insólito: a invenção da história",
+      "convidados": "Bruno Gaudêncio | Campina Grande - PB\nInocência Mata | Ilha do Príncipe - São Tomé e Príncipe\nSylvia Brito | Campina Grande - PB\nMediação: Bruna Santiago | Campina Grande - PB"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "14:00",
+      "titulo": "Mesa 3\nOs monstros continentais: a invenção do horror",
+      "convidados": "Dina Salústio | Santo Antão - Cabo Verde\nMaría Fernanda Ampuero | Guaiaquil - Equador\nLuciana de Mello | Buenos Aires - Argentina\nMediação: Mylena Queiroz | Santa Cruz do Capibaribe - PE"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "18:30",
+      "titulo": "Bate-papo\nA invenção de Havana",
+      "convidados": "Leonardo Padura | Havana - Cuba\nMediação: Analice Pereira | Monte Horebe - PB"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "20:00",
+      "titulo": "Sessão de Autógrafos",
+      "convidados": "Leonardo Padura | Havana - Cuba"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "20:30",
+      "titulo": "Cortejo de Maracatu",
+      "convidados": "Maracatu Coletivo Maracastelo | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Emanoel Victor Patrício de Lucena - Réquiem para São Romão (Romance) - Publicação independente"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Nathan Nascimento Cirino - Casa Crisálida (Romance) - Editora Patuá"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Marcel Vieira Barreto Silva - Sutura (Romance) - Editora Mondru"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Rejane Vieira - A Praça do Meio do Mundo (Romance) - Editora Veivê"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Orlando Piedade - Portugal Preto: O Trilho dos Invisíveis - Edições Colibri"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Marcos Antônio de Aguiar - O romance do soldado em Fernando de Noronha (Romance) - Editora marx fox"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Arturo Cavalcanti Catunda - Com Traças Não Se Brinca (Romance) - Editora Minimalismos"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Maria de Fátima de Sá Sarmento - Assassinato na Praia do Jacaré (Romance) - Editora Fonte de Papel- Dark Fans"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Reginaldo Guedes da Silva Brito - O Fator Biológico (Romance) - Biblio Editora"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Lindjane Pereira - Parque das Flores Mortas (Romance) - Editora Mondru"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Jonathan Henrique De Almeida Ferreira - Romance e ficção (Romance) - Editora Jonathan Ferreira"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Carla Salvador - Um Pouco de Nós (Romance) - Editora Penumbra"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Rosivaldo Gomes de Sá Sobrinho - O Encantado (Romance) - Editora Mondrongo"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Valéria Vanda Xavier Nunes - Carta ao pai (Romance) - Editora Papel da palavra"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Marcelo Dias Perrayon - A Terceira Queda (Romance) - Publicação independente"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:00",
+      "titulo": "Casa FLIC",
+      "convidados": "ColaBora! FLIC - Feira solidária da FLIC"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Natasha Bernardo Ferreira - Um amor imperfeito (História e romance) - Editora Melros"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Casa FLIC",
+      "convidados": "Roda de Conversa - Campina de todas as letras: a irradiação cósmica da cultura"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Carolaine Maria Lopes - Meu sonho doce: antologia de contos, poesias e doces devaneios. (Contos) - Editora Miramar Livros / Carolaine Maria Lopes"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Danielly Vieira Inô - Todos os contos de amor são ridículos (Contos) - Arribaçã Editora"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Isabel Cristina Corgosinho - Eros E Thanatos em Plenos Pecados (Contos) - Editora Taup. Selo Praga"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Erbênnea Usulino de Souza - Sal do desejo (Contos) - Erbênnea Souza - publicação independente"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "DJ Fornox | João Pessoa - PB (Entrada: R$ 5,00)"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "George Patrick do Nascimento - Cruz-contos (Contos) - Editora Opera"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Cledyson Anderson Rodrigues Gomes - Depois do Maremoto, Ressaca-Mar (Contos) - Editora União"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Letícia Palmeira - Quando Peixes Engole Saturno (Contos) - Editora Arribaçã"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Pedro Pereira de Sousa Neto - O Homem-Rã (Contos) - Editora Patuá"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Kilmara Rodrigues dos Santos - Crônicas de um Sertão em ação (Crônicas) - Editora ESL"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Leonardo Gomes Barbosa - O peso da borboleta (Crônicas) - Editora Papel da Palavra"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Mateus Bezerra Araújo - Bem que vó dizia (Crônicas) - Editora Papel da palavras"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Sandra Raquew dos Santos Azevêdo - O caminho invisível (Crônicas) - Editora Marca de Fantasia"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Luís G. de Oliveira - Padres do Meu Tempo (Crônicas) - Offset Editora"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Evanio Teixeira da Silva - Histórias do Futebol Pilarense: de José Lins do Rego ao Modena (Crônicas) - Editora Zé da Luz. Pessoa física Evanio Teixeira"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "19:00",
+      "titulo": "Cortejo de Maracatu",
+      "convidados": "Maracatu Baque Mulher | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Antonio da Costa Silva - Soledade (Crônicas) -  Editora Clube de Autores"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Ronaldo Magella Diniz Santos - A vida pede café, livros e conexões e crônicas de gratidão (Crônicas) - Editora Papel da Palavra"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Ricardo Oliveira - Passou no Multiplex: crônicas, críticas e anotações cinéfilas (Crônicas) - Editora Leevro"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Vlamir Marques Duarte - Crônicas de Zeros e Uns (Crônicas) - Publicação independente"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Vivianne Freitas Oliveira Asfora - 30 dias de descanso (Crônicas) - Publicação independente"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Rayana Andrade de Carvalho - Entre o nó e a palavra (Poesias) - Editora Urutau"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Anna Amélia Apolinário da Silva - Oráculos Carnívoros do Coração Arcano (Poesias) - Editora Mormaço Editorial"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Amanda Felix de Lima Souza - Dos Haicais Perdidos (Poesias) - Editora Minimalismos"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Annecy Bezerra Venâncio - A Infância das Palavras (Poesias) - Editora Ideia"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Raniery Dantas de Abrantes - A dor na Poesia (Poesias) - Editora Sanhauá"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Marineuma de Oliveira Costa Cavalcanti - Vice-Versa (Poesias) - Editora A União"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Maria do Socôrro Sousa Santos - Vi, Verei Entre Versos e Rimas (Poesias) - Ideia Editora"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Arnaldo Mendes Leite - Poemas de Vida, Amor E Fé (Poesias) - Editora Guedes"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Jenete Monteiro Fernandes - Sintonia (Poesias) - Editora Minimalismos"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Misael Nóbrega de Sousa - Sós (Poesias) - Editora Arribaçã"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Suênia Silva - Simplesmente Ame (Poesias) - Editora Antropus"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Arthur Vieira Viana - 1/2 colher de sulfato ferroso (Poesias) - Bizarria Editora"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Vitória Lima - Quando olho no espelho (Poesias) - Editora Guilhotina"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Daniela Pitta de Jesus - Atravessada (Poesias) - Arribaçã Editora"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "André Luiz Cordeiro Sabino - Não Deixe para Ler Meus Poemas Depois Que Eu Morrer (Poesias) - Editora Taup - Toma Aí Um Poema"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "18:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Anderson A. V. Gomes - Abre-te, CORAÇÃO! - Editora Moura Ramos"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Vamberto Fernandes Spinelli Junior - Motín dentro del silencio (Poesias) - Editora Ediciones Abrelabios"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Joaquim Costa Neto - Decrépito de Uma Alma (Poesia, Poema em prosa) - Editora Arribaçã"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Karina de Oliveira Azevedo - Romeu & Julieta - A história contada e recontada (Poesia, cartas e contos) - Editora Papel da Palavra - Responsável pela obra Karina de Oliveira Azevedo"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Márcio Luis de Oliveira Pereira - Eu Escrevo para os Meus Alunos (Crônicas E Poemas) - Publicação independente"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Delma Goes de França - Tratado da clínica poética - poesia, cuidado e afeto (Poesia, cordel) - Editora ser poeta"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Ione dos Santos Severo Formiga - no Mundo Diverso em Que Vivemos (Cordel) - Editora Edições Cordelteca Leandro Gomes de Barros"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Roniere Leite Soares - Cem Sons (Livro autobiográfico de composições musicais) - Editora Papel da Palavra"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Lucas de Araújo Nóbrega - Cinco Conto (Quadrinhos) - Publicação independente"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Vitor Daniel Cartaxo Gomes - Camus: o absurdo e a revolta (Quadrinhos) - Editora Suçuarana"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Thaïs Kisuki - Olga, a sexóloga (volume 3) (Quadrinhos) - Editora Guilhotina"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "18:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Jon Moreira -  O Sertão e o Mundo nas Margens do Alguidar: A Canção de Chico César - Editora Patuá"
+    },
+    {
+      "polo": "POLO MÃE RITA PRETA | CARAVELA CULTURAL",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "19:00",
+      "titulo": "Batalhas do Conhecimento",
+      "convidados": "-"
+    },
+    {
+      "polo": "POLO MÃE RITA PRETA | CARAVELA CULTURAL",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "Dani Baldissera| Guarapuava - PR"
+    },
+    {
+      "polo": "POLO ARNALDO XAVIER | CASA DEMÉTRIUS MONTENEGRO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "17:00",
+      "titulo": "Sarau do Por do Sol",
+      "convidados": "Priscila Gabriela Rocha Silva | Campina Grande - PB\nAmirar Nobre Prata | Fortaleza - CE\nAlessandra Santos | Campina Grande - PB\nDavid Marcelino De Oliveira | João Pessoa - PB\nPaulo Henrique da Silva | João Pessoa - PB\nCarolaine Maria Lopes | Rio de Janeiro - PB\nRaniery Dantas de Abrantes | João Pessoa - PB\nAnnecy Bezerra Venâncio | João Pessoa - PB\nEditora Tempo Livre | João Pessoa - PB\nKaline Câmara de Araújo | João Pessoa - PB\nCarine Jansen Batista Neves Martins | Salvador - BA\nAntonio Alexandre de Almeida | Pentecoste - CE\nRenálide de Carvalho Morais Fabrício | Jacaraú - PB\nBruna Bezerra Meireles | João Pessoa - PB\nSergio Ricardo e Silva | Recife - PE"
+    },
+    {
+      "polo": "POLO ARNALDO XAVIER | CASA DEMÉTRIUS MONTENEGRO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "19:00",
+      "titulo": "Rota de Afroturismo - Caminhada Jampa Negra",
+      "convidados": "Felipe Coutinho | Apuama Afroturismo | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ARNALDO XAVIER | CASA DEMÉTRIUS MONTENEGRO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "19:30",
+      "titulo": "Cortejo de Maracatu",
+      "convidados": "Maracatu Pé de Elefante | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO INÁCIO DA CATINGUEIRA | ACADEMIA PARAIBANA DE LETRAS",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "18:00",
+      "titulo": "Encontro",
+      "convidados": "Leia Mulheres JP convida Luciany Aparecida | Jaguaquara - BA"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "19:00",
+      "titulo": "Sarau da Lua",
+      "convidados": "Evanio Teixeira da Silva | Pilar - PB\nAntonio da Costa Silva | Itabaiana - PB\nJacquelino Souza do Nascimento | João Pessoa - PB\nRafael Lopes de Vasconcelos | Pilar - PB\nAndré Luiz Cordeiro Sabino | Recife - PE\nMarília Teles Cavalcante | João Pessoa - PB\nRayana Andrade de Carvalho | Santa Rita - PB\nNilson de Sousa Rutizat | Sousa | PB\nGeisiane Justino de Azevedo | Cabedelo - PB\nWallyson de Souza Batista | Santa Rita - PB"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "20:00",
+      "titulo": "Cortejo de Maracatu",
+      "convidados": "Maracatu Nação Maracahyba | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "21:00",
+      "titulo": "Sarau Dengo e Cheiro no cangote",
+      "convidados": "Lukete | João Pessoa - PB\nVitória Rodrigues | Igaci - AL"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "Retrohollics - Especial Beatles | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ZABÉ DA LOCA | PRAÇA PEDRO AMÉRICO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "19:00",
+      "titulo": "Show (Parceria com a Mostra de Teatro de Direitos Humanos) - Theatro Santa Roza",
+      "convidados": "Anelis Assumpção - São Paulo | SP"
+    },
+    {
+      "polo": "POLO ZABÉ DA LOCA | PRAÇA PEDRO AMÉRICO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "21:00",
+      "titulo": "Show",
+      "convidados": "Nathalia Bellar - João Pessoa | PB"
+    },
+    {
+      "polo": "POLO ZABÉ DA LOCA | PRAÇA PEDRO AMÉRICO",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "22:20",
+      "titulo": "Show",
+      "convidados": "Mayra Andrade - Havana | Cuba\nParticipação especial: DIEG | Mindelo - Cabo Verde\nParticipação especial: Mirella Costa | Recife - PE"
+    },
+    {
+      "polo": "POLO JOSÉ MARIA DOS SANTOS | BAR DO BODE",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "Radio System -  João Pessoa | PB \nDJ AC | João Pessoa - PB\nMolas de Malgosto | Recife - PE"
+    },
+    {
+      "polo": "POLO ZÉ LIMEIRA | AVENIDA GENERAL OSÓRIO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "09:00",
+      "titulo": "Feira de livros",
+      "convidados": "Espaço FliParaíba\nLivraria A União | João Pessoa - PB\nPatuá | São Paulo - SP\nLivraria do Luiz | João Pessoa - PB\nArribaçã | Cajazeiras - PB\nDromedário | João Pessoa - PB\nSebo Encantado do Cordel| Natal - RN\nO Sebo Cultural | João Pessoa - PB\nLeevro | João Pessoa - PB)\nEspaço Cordel | João Pessoa - PB\nLivraria Leitura | João Pessoa - PB\nCEPE | Recife - PE\nEditora Sanhauá | João Pessoa - PB\nCafé das Letras | João Pessoa - PB\nEditora Ideia | João Pessa - PB\nEspaço das Academias\nPalavra Encantada | Recife - PE\nEditora Grafset | João Pessoa - PB\nHélio Books | João Pessoa - PB\nUnião Brasileira de Escritores | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ZÉ LIMEIRA | AVENIDA GENERAL OSÓRIO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "09:00",
+      "titulo": "PeriFeirinha",
+      "convidados": ""
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "09:00",
+      "titulo": "Oficina \"Da Tela à Pintura\" -  Fabricação e montagem de telas",
+      "convidados": "Rafael dos Santtos Padilla | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ELISEU CÉSAR | SANTA'S CAFETERIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "14:00",
+      "titulo": "Oficina \"Da Tela à Pintura\" -  Pintura ao ar livre na Praça São Francisco (Praça dos Artistas)",
+      "convidados": "Rafael dos Santtos Padilla | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "09:00",
+      "titulo": "Contação de histórias: Àkókò tàn (hora do conto)",
+      "convidados": "Giracontos | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:00",
+      "titulo": "Contação de histórias: Cultivando Sonhos",
+      "convidados": "Mestra Doci | Salvador - BA"
+    },
+    {
+      "polo": "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:00",
+      "titulo": "Contação de histórias: Na gira da saia, roda o coco na Paraíba",
+      "convidados": "Castelo de Histórias | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "14:00",
+      "titulo": "Contação de histórias: Lembranças do Fundo do Meu Quintal",
+      "convidados": "Nai Gomes | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:00",
+      "titulo": "Contação de histórias: O Velho e o Rio",
+      "convidados": "Mestre Marcos Mituaçu | Conde - PB"
+    },
+    {
+      "polo": "POLO ADÉLIA DE FRANÇA | BIBLIOTECA ESTADUAL AUGUSTO DOS ANJOS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:00",
+      "titulo": "Contação de histórias: O Chama Histórias",
+      "convidados": "Cia Boca de Cena | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "09:00",
+      "titulo": "Mesa 4\nVidas em movimento: a invenção da cidade",
+      "convidados": "Gabriela Wiener | Lima - Peru\nCidinha da Silva | Belo Horizonte - MG\nNathallia Protázio | Jupi - PE\nMediação: Tiago Germano | Picuí - PB"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:00",
+      "titulo": "Mesa 5\nA palavra viva: a invenção da linguagem",
+      "convidados": "Gisela Casimiro | Bissau - Guiné Bissau\nLeda Maria Martins | Rio de Janeiro - RJ\nJessicalen Conceição | Abreu e Lima - PE\nMediação: Francy Silva | São José da Vitória - BA"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "14:00",
+      "titulo": "Mesa 6 - Curadoria APBRA 200 anos\nO direito de imaginar-se: a invenção das imagens",
+      "convidados": "Paulo Lins | Rio de Janeiro - RJ\nAdriana Falcão | Rio de Janeiro - RJ\nLeonel Vieira | Miranda do Douro - Portugal\nMediação: José-Manuel Diogo | Castelo Branco - Portugal"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:00",
+      "titulo": "Bate-papo\nA invenção de Luanda",
+      "convidados": "Ondjaki | Luanda - Angola\nMediação: João Matias | Crato - CE"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:30",
+      "titulo": "Sessão de Autógrafos",
+      "convidados": "Ondjaki | Luanda - Angola"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "18:30",
+      "titulo": "Bate-papo de encerramento\nO ontem é o hoje do agora: a invenção do futuro",
+      "convidados": "Anelis Assumpção | São Paulo - SP\nMediação: Bruno Ribeiro | Pouso Alegre - MG"
+    },
+    {
+      "polo": "POLO PEREIRA DA SILVA | IGREJA E MOSTEIRO DE SÃO BENTO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "20:30",
+      "titulo": "Cortejo de Maracatu",
+      "convidados": "Maracatu Quilombo Nagô | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO INÁCIO DA CATINGUEIRA | ACADEMIA PARAIBANA DE LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "09:00",
+      "titulo": "Papo de Mercado",
+      "convidados": "Editora Comix Zone | São Paulo - SP\nEditora Moinhos | Belo Horizonte - MG\nEditora Companhia das Letras | São Paulo - SP\nBoitempo Editorial | São Paulo - SP\nEditora Patuá | São Paulo - SP"
+    },
+    {
+      "polo": "POLO INÁCIO DA CATINGUEIRA | ACADEMIA PARAIBANA DE LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:00",
+      "titulo": "Lançamentos literários",
+      "convidados": "Tarcísio Pereira - Teodósio (Romance) - Editora A União\nErika Trindade - Malaika (Romance) - Editora A União\nCaio Beltrão - O Cristo de quatro pregos (Romance) - Editora A União\nDiego Trindade - As mãos que sabem o caminho (Crônica) - Editora A União\nSousa Neto - Uma qualquer Maria. Um qualquer José (Crônica) - Editora A União\nCibele Laurentino - Geografia do corpo (Conto)  - Editora A União\nFlávio Monteiro - O presépio da rua (Poesia) - Editora A União\nTays Melo - Rio vermelho (Poesia) - Editora A União\nTony dos Santos - Confissões cotidianas de um Assum Preto (Poesia) - Editora A União\nMarineuma de Oliveira - Vice-versa (Poesia) - Editora A União\nBeano de Borba - Certidão de Transe (Poesia) - Editora A União\nAna Patrícia Amorim - Pororoca (Poesia) - Editora A União\nJordânia Pereira - O livro que perdeu a capa (Infantojuvenil) - Editora A União\nJunior Fernandes - Berilau - O menino que contava histórias em versos (Infantojuvenil) - Editora A União\nJonas Souza e Viviane Araújo - Me identifico – as vozes invisíveis por trás do uso de drogas (Não ficção) - Editora A União\nAlberto Lacet - O século II de Keynes (Ensaio)  - Editora A União\nMaria Thalita Cardoso Rezende, Hiury Évines De Souza Lucena, Luís Eduardo Santos de Oliveira Ramos, José Casimiro Gomes, Josenildo Maria De Lima - Antologia (Cordel) - Editora A União"
+    },
+    {
+      "polo": "POLO INÁCIO DA CATINGUEIRA | ACADEMIA PARAIBANA DE LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "14:00",
+      "titulo": "Papo de Mercado",
+      "convidados": "Editora Comix Zone | São Paulo - SP\nEditora Moinhos | Belo Horizonte - MG\nEditora Companhia das Letras | São Paulo - SP\nBoitempo Editorial | São Paulo - SP\nEditora Patuá | São Paulo - SP"
+    },
+    {
+      "polo": "POLO INÁCIO DA CATINGUEIRA | ACADEMIA PARAIBANA DE LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "14:00",
+      "titulo": "Lançamentos literários",
+      "convidados": "Maria Eliete - 12 fatos em foco (Romance) - Editora A União\nPaulo Henrique - Bica dos Milagres (Romance) - Editora A União\nLucimário Augusto da Silva - O imperador e o rio (Romance) - Editora A União\nCarlos Alves - Abram as janelas (Crônica) - Editora A União\nRafael Medeiros - Escalabrião (Conto) - Editora A União\nAngelo Rafael - Eu, a casa e o bem-te-vi (Poesia) - Editora A União\nMaria Aparecida de Sousa Cardoso - Aracati: memórias ao vento (Poesia) - Editora A União\nNilson Rutizat - Metade de mim é quase dor (Poesia) - Editora A União\nLou Fumeiro - Abriu-se um rio no meu peito (Poesia) - Editora A União\nCarlos Almeida - Do admirável exercício das rotinas (Poesia) - Editora A União\nDjanira Meneses da Silva - A arte de ser céu (Poesia) - Editora A União\nThyago Correia - Nascidos para perder (Poesia) - Editora A União\nJeovânia P. - A formiga que comia letras (Infantojuvenil) - Editora A União\nFellipe Rocha - As cores de setembro (Não ficção) - Editora A União\nAlice Cavalcante - Na encruzilhada do corpo – estrutura (Ensaio) - Editora A União\nTiago Germano - Ignez é morta: uma escritora que o Brasil enterrou (Ensaio) - Editora A União\nCláudia Teixeira de Souza Guedes, Railton Tomaz Fernandes, Maria Parahybana, Fábio Mozart, Jéssica Silva - Antologia (Cordel) - Editora A União"
+    },
+    {
+      "polo": "POLO INÁCIO DA CATINGUEIRA | ACADEMIA PARAIBANA DE LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:00",
+      "titulo": "Encontro",
+      "convidados": "Clube do Conto"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário (Parceria com a Mostra de Teatro de Direitos Humanos)",
+      "convidados": "Anelis Assumpção - Serena Finitude (infantojuvenil) - Oh! Editora"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Wandreus Wilson da Silva Correia - O xamanismo ameríndio: uma perspectiva do pensamento indígena (Ensaio) - EUFPB - Editora da UFPB"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Michele Alexandra Fachini - \"Mulheres do Paideia: quando o verbo se faz luta\" (Ensaio) - Editora Brasílica"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Givanildo Manoel da Silva - Minha Cumadi Fulôzinha (Infantojuvenil e infantil) - Publicação independente"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Tiago Monteiro Pereira - Maria e o baú da fantasia (Infantojuvenil e infantil) - Editora Brincadeira de Papel"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Arícia Cecília de Farias Bezerra - O dia em que Lampião encontrou a Cumade Fulozinha (Infantojuvenil e infantil) - Editora Literabooks"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Juliana Maria Soares dos Santos - Sou força, sou mulher! (Infantojuvenil e infantil) - Editora Papel da Palavra"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Nadezhda Bezerra Batista - A vista da janela (Infantojuvenil e infantil) - Editora Sanhauá"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Porcina Gomes Furtado - Será Que A Lua Vai Cair? (Infantojuvenil e infantil) - Editora Arribaçã"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Marcilânia Gomes Alcântara Figueiredo - Dom Ramon e seu violão em: o toco e a mãe da lua (Infantojuvenil e infantil) - Editora Arribaçã"
+    },
+    {
+      "polo": "POLO JOÃO BALULA | LOCA COMO TU MADRE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "18:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Allan Souza Lima - Como se o mundo ficasse mais honesto debaixo d'água (Ensaio) - Editora Tamuatá"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "João Miguel Araujo Marques - O Poeta Inácio da Catingueira (Infantojuvenil e infantil) - Editora Papel da Palavra"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Maria Clara Araujo Marques - Mãos Que Falam e Transformam (Infantojuvenil e infantil) - Editora Papel da Palavra"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Rita de Cássia Barbosa Pereira - O menino que brigava com o vento (Infantojuvenil e infantil) - Publicação independente"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Pedro Bernadone Lacerda Figueiredo - Super Calon - A Jornada de Randu (Infantojuvenil e infantil) - Editora Passarinho"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:00",
+      "titulo": "Casa FLIC",
+      "convidados": "ColaBora! FLIC - Feira solidária da FLIC"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Carlos Alberto Pereira da Silva - Nora e os Pulsares (Infantojuvenil e infantil) - Editora Gráfica Cópias e Pápeis"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Gilberto José da Silva - Cabritinho Zé e sua Turma - Defendendo a Caatinga (Infantojuvenil e infantil) - Publicação independente"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Mariana Roncato - Fronteiras do Trabalho: da vida cotidiano para a teoria (Não ficção) – Editora Boitempo"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Cristhiano Aguiar - A Quimera (Romance) – Editora Alfaguara"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Cidinha da Silva - Só bato em cachorro grande, do meu tamanho ou maior (Ensaio) – Editora Rosa dos Tempos"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Nathália Protázio - As mãos de quem não espera (Conto) - Editora Zouk"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "18:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Sylvia Leite - No rastro de Rosa (reportagem) - Edições Narval"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "19:00",
+      "titulo": "After",
+      "convidados": "Clayton Barata e Trio Soul | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "DJ Jorge Vision | João Pessoa - PB (Entrada: R$ 5,00)"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Marcelo Duarte Guilherme Estrela - A Peleja de Lampião no Belém do Arrojado: Resistência Civil ao Cangaço em Uiraúna/PB (História e Romance histórico) - Editora Marcelo Duarte Guilherme Estrela e Tiago Misael de Jesus Martins"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Wertevan Silva Fernandes - O Massacre de Tracunhahém (História e Romance histórico) - Editora Ideia"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Caroline Rangel Travassos Burity - Amar com Fraternidade (História e Romance histórico) - Publicação independente."
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "José Tavares de Araújo Neto - A Marcha da Coluna Prestes pelo Estado da Paraíba - Combates, Documentos e Narrativas (História e Romance histórico) - Editora Oxente"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Sérgio Rolim Mendonça - A engenharia na história e histórias de um engenheiro (História e Romance histórico) - Editora Labrador"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Maria Ângela Sitônio Wanderley - Este canto é todo seu: Zacarias Sitônio, seu lugar, sua gente (Princesa Isabel-PB, séculos XIX e XX) (História e Romance histórico) - Editora: Ideia"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Wagner Cruz da Fonseca - O Vendedor Que Resolve (Ecommerce) - Editora Santorini"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Mari Fatima Lannes Ribeiro - Mais Coragem, Mais Estratégia, Mais Influência (Negócio) - Editora Mari Lannes"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Wanildo Martins da Silva - Ala Ursas - Memória, Corpo E Resistência no Carnaval da Paraíba (Ensaio) - Editora Letras e Versos - Wanildo Martins"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Dannylo Ruann Galdino Maia - Lampião no Vale do Rio do Peixe (Cangaço) - Editora Oxente"
+    },
+    {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "19:00",
+      "titulo": "Cortejo de Maracatu",
+      "convidados": "Maracatu Tambores do Tempo - João Pessoa | PB"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Francisco Limeira Junior - Laços que Transformam - Como ser um Filho Melhor (Não ficção) - Publicação independente"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Aldo Silva de Mendonça - Além dos Rios da Memória (História e Romance histórico) - Editora Arribaçã"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Cícero Manuel dos Santos - Quando a história chama - (História) - Editora Uiclap"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Luiz Gonçalves Madruga Júnior - Itapororoca conta sua história (História e Romance histórico) - Editora Viseu"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Francisco Leite Duarte - O Sibito baleado (Fábula política) - Editora Faria e Silva ( Altaoocks)"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Jeann Leal de Araújo - Sertão indômito (Distopia) - Publicação independente"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Mylena Queiroz - Sangue de Cabra (Contos) - Editora Patuá"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Flávio José Rocha da Silva - Teatro do Oprimido: uma história, algumas críticas e muitos caminhos (Ensaio) - Ideia Editora"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Carlos Alberto Farias de Azevedo Filho - Cuidado e Conhecimento de Si em Michel Foucault (Ensaio) - Editora Ideia"
+    },
+    {
+      "polo": "POLO GERTRUDES MARIA | CAFÉ DAS LETRAS",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Maria José Vital Justiniano - Tropeços da Vida E Outros Escritos (Narrativas e poesias) - Editora Filós"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Virgínia de Fátima de Araújo - Quem tem boca para falar, ouça! (Autoajuda) - Editora Papel da Palavra"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "10:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Euzimar Gregório dos Santos - Raízes Negra: Ascensão pelo Saber (Autobiografia) - Editora Libellus Editorial"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Priscila Gabriela Rocha - Para a Menina que Fui Cartas para meninas que não precisam esperar para ser. (Literatura epistolar) - Produção Independente"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "11:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Luana Dias Santiago Pimenta - Sob a Luz da Lua- Ciência e Alma em Diálogo: Uma Jornada de Cura Interior (Autobiografia) - Editora Luana Pimenta (Autopublicação)."
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Marcos Antônio Pimentel Pequeno - Era uma vez um palhaço e outros textos breves para teatro (Teatro) - Editora Marcos Antônio Pimentel Pequeno"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "15:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Danielle Alexa Barbosa Meira - A palavra não sabe o que diz (dramaturgia) - Editora Escaleras"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Paula Cristina da Silva Figueiredo - A Triunidade de Deus (Teologia Cristã) - Publicação independente"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "16:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Palmari Holada de Lucena - Cartas Apócrifas (Prosa Epistolar) - Editora: Ideia Ano: 2025 Extensão: 178 páginas ISBN: 978-65-5608-709-2"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Hérica de Carvalho Costa - \"O que há dentro de você? Reflete...\" (Não ficção/Literatura Terapêutica) - Hérica de Carvalho Costa (publicação independente)"
+    },
+    {
+      "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:30",
+      "titulo": "Lançamento literário",
+      "convidados": "Josefa Elizabete Ferreira dos Santos - O Cálice da Vida Concepção, Caminho e Transcendência (Autoconhecimento, Psicologia aplicada) - Publicação independente"
+    },
+    {
+      "polo": "POLO MÃE RITA PRETA | CARAVELA CULTURAL",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "19:00",
+      "titulo": "Batalhas do Conhecimento",
+      "convidados": "-"
+    },
+    {
+      "polo": "POLO MÃE RITA PRETA | CARAVELA CULTURAL",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "Parahyba Ska Jazz Foundation -  |  João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ARNALDO XAVIER | CASA DEMÉTRIUS MONTENEGRO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "14:00",
+      "titulo": "Rota de Afroturismo - Rota Sankofa Parahyba",
+      "convidados": "Felipe Coutinho | Apuama Afroturismo | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ARNALDO XAVIER | CASA DEMÉTRIUS MONTENEGRO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "17:00",
+      "titulo": "Sarau do Por do Sol",
+      "convidados": "José Ferreira de Lima Neto | Livramento - PB\nJenete Monteiro Fernandes | João Pessoa - PB\nAna Clara Aguiar Pimentel | Barra de Santana - PB\nTahis Emanuela dos Santos | Campina Grande - PB\nJosé Mauricelio da Silva | Camalaú - PB\nNaíla Cordeiro Evangelista de Souza | João Pessoa - PB\nJulia Schmidt | Iguatu - CE\nDanilo Soares Crispim | Rio Tinto - PB\nEdvirgens Guimarães de Lima | João Pessoa - PB\nClaudete Gomes dos Santos | Nilópolis - RJ\nIsmênia Thereza Santos Leal | Monteiro - PB\nValmira Cavalcanti Marques | Serra da Raiz - PB\nStefhanny Lee Nunes da Silva | João Pessoa - PB\nMaria Edilene Justino (Edy Justino) | Salgado de São Félix - PB\nEveraldo Dantas da Nobrega | João Pessoa - PB\nAntonio Joaquim Alves | João Pessoa - PB\nJúlio César Macedo de Freitas | Campina Grande - PB"
+    },
+    {
+      "polo": "POLO ARNALDO XAVIER | CASA DEMÉTRIUS MONTENEGRO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "19:30",
+      "titulo": "Cortejo de Maracatu",
+      "convidados": "As Calungas | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "19:00",
+      "titulo": "Sarau da Lua",
+      "convidados": "Herivelt Félix de Lima | Itabaiana - PB\nDaniel Rodas Ramalho | Teixeira - PB\nPedro Pereira de Sousa Neto | João Pessoa - PB\nAnna Amélia Apolinário da Silva | João Pessoa - PB\nJoão Victor Ribeiro da Silva | Alagoa Grande - PB\nAniely Walesca Oliveira Santiago | João Pessoa - PB\nMaria Alice Bandeira de Jesus | Paulo Afonso - BA\nJosé de Arimatéia Guimarães da Nóbrega | Teixeira - PB\nNatália Beatriz França de Lucena | Picuí - PB\nBarbara Mazocante Majadas | Goiânia - GO\nRafael William Monteiro | João Pessoa - PB\nOlivia Maria de Mesquita Ikeda | João Pessoa - PB\nThadeu Araujo Ribeiro | Araruna - PB\nIzabel Cristina da Silva | Porto Velho - RO\nGeraldo Bernardo Abrantes Sousa | Sousa - PB\nCíntia Moreira Lima | João Pessoa - PB\nClarice Virgilio | Ipatinga - MG\nKaíque Franca Schmidhaüssler | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "20:00",
+      "titulo": "Cortejo de Maracatu",
+      "convidados": "Maracatu Baque de Raiz | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "21:00",
+      "titulo": "After",
+      "convidados": "Banda Muriata| João Pessoa - PB"
+    },
+    {
+      "polo": "POLO GLAUCO ANDREZA | GENERAL STORE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "Bella e o Olmo da Bruxa | Porto Alegre - RS (Entrada: a partir de R$ 35,00)"
+    },
+    {
+      "polo": "POLO ZABÉ DA LOCA | PRAÇA PEDRO AMÉRICO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "18:00",
+      "titulo": "Show (Parceria com a Mostra de Teatro de Direitos Humanos)",
+      "convidados": "Erick de Almeida | João Pessoa - PB"
+    },
+    {
+      "polo": "POLO ZABÉ DA LOCA | PRAÇA PEDRO AMÉRICO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "21:00",
+      "titulo": "Show",
+      "convidados": "Elon - Pombal | PB"
+    },
+    {
+      "polo": "POLO ZABÉ DA LOCA | PRAÇA PEDRO AMÉRICO",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "22:20",
+      "titulo": "Show",
+      "convidados": "Chico César | Catolé do Rocha - PB"
+    },
+    {
+      "polo": "POLO JOSÉ MARIA DOS SANTOS | BAR DO BODE",
+      "data": "28/11/2026 (SÁBADO)",
+      "horario": "23:00",
+      "titulo": "After",
+      "convidados": "Parajeau | João Pessoa - PB\nGabtec | João Pessoa - PB\nM3tsu | João Pessoa - PB"
+    }
+  ]
+}
