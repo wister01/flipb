@@ -166,11 +166,12 @@ header {
 }
 
 .autores {
-    z-index: 3;
+    z-index: 5;
     min-height: 100vh;
+    min-height: 100svh;
     padding: calc(clamp(72px, 7.2vw, 138px) + var(--curtain-overlap)) 20px 88px;
     overflow: hidden;
-    background: #702b91 url("imgs/bg_autores.webp") left center / cover no-repeat;
+    background: #702b91 url("imgs/bg_autores.webp") right top / auto 100vh repeat-y;
     color: #fff;
 }
 
