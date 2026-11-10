@@ -861,91 +861,24 @@ header {
 
 
 .logos{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: start;
-    gap: 32px 24px;
+    display: flex;
+    justify-content: center;
     width: min(100%, 1120px);
     margin: 0 auto;
     padding: calc(var(--curtain-overlap) + 2.2rem) 20px 40px;
 }
 
-.realiza,
-.apoio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    min-width: 0;
-    text-align: center;
-}
-
-.realiza img,
-.apoio img {
+.logos img {
     display: block;
-    width: min(80%, 220px);
-    height: auto;
-    object-fit: contain;
-}
-
-.parceiros {
-    grid-column: 1 / -1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    min-width: 0;
-}
-
-.logos-part {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px 32px;
     width: 100%;
-}
-
-.logos-part img {
-    display: block;
-    width: 40px;
     height: auto;
     object-fit: contain;
 }
-
-.logos-part img.patua {
-    transform: scale(0.8);
-}
-
 
 @media (max-width: 700px) {
     .logos {
-        gap: 28px 16px;
         padding-right: 16px;
         padding-left: 16px;
-    }
-
-    .realiza,
-    .apoio {
-        gap: 12px;
-    }
-
-    .realiza img,
-    .apoio img {
-        width: min(100%, 180px);
-    }
-
-    .parceiros {
-        gap: 16px;
-    }
-
-    .logos-part {
-        gap: 16px;
-    }
-
-    .logos-part img {
-        width: clamp(32px, 10vw, 48px);
     }
 }
 
