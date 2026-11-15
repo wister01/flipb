@@ -599,9 +599,16 @@
     {
       "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
       "data": "27/11/2026 (SEXTA-FEIRA)",
-      "horario": "16:00",
+      "horario": "15:00",
       "titulo": "Lançamento literário",
       "convidados": "Roniere Leite Soares - Cem Sons (Livro autobiográfico de composições musicais) - Editora Papel da Palavra"
+    },
+      {
+      "polo": "POLO CHICA BARROSA | CACHAÇARIA FILIPÉIA",
+      "data": "27/11/2026 (SEXTA-FEIRA)",
+      "horario": "16:00",
+      "titulo": "Lançamento literário",
+      "convidados": "Marcos Cavalcanti de Albuquerque - Itarembé - MLP Gráfica e Editora"
     },
     {
       "polo": "POLO PERYLLO DOLIVEIRA | BENDITO BOTECO",
@@ -1016,6 +1023,7 @@
       "titulo": "Lançamento literário",
       "convidados": "Mariana Roncato - Fronteiras do Trabalho: da vida cotidiano para a teoria (Não ficção) – Editora Boitempo"
     },
+
     {
       "polo": "POLO CARDOSO VIEIRA | TROPICÁLIA MUTANTE",
       "data": "28/11/2026 (SÁBADO)",
