@@ -95,6 +95,7 @@
     .nav-item a span {
         position: relative;
         z-index: 1;
+        font-size: clamp(0.52rem, 2.4vw, 0.9rem);
     }
 
     .nav-item:last-child a span {
@@ -145,6 +146,7 @@
     .programacao,
     .autores,
     .mesas,
+    .batepapos,
     .shows,
     .flipp {
         scroll-margin-top: 16px;
@@ -166,9 +168,43 @@
         align-self: center;
     }
 
+    .depoimentos-content--bruno .depoimentos-pessoa {
+        order: 1;
+    }
+
+    .depoimentos-content--bruno .depoimentos-texto {
+        order: 2;
+    }
+
     .mesas {
         padding-right: 20px;
         padding-left: 20px;
+    }
+
+    .batepapos {
+        padding-right: 16px;
+        padding-left: 16px;
+        background-position: center, right center;
+    }
+
+    .batepapos-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .batepapo-card {
+        aspect-ratio: 4 / 5;
+        padding: 18px;
+    }
+
+    .batepapo-card-data {
+        font-size: 1.3rem;
+        font-weight: 100;
+    }
+
+    .batepapo-card-titulo {
+        font-size: clamp(1.56rem, 6.5vw, 2.34rem);
+        font-weight: 100;
     }
 
     .mesas-grid {
@@ -189,6 +225,10 @@
     }
 
     .mesa-dialog-conteudo {
+        padding: 56px 24px 28px;
+    }
+
+    .batepapo-dialog-conteudo {
         padding: 56px 24px 28px;
     }
 
@@ -241,6 +281,10 @@
 
 @media (min-width: 769px) and (max-width: 999px) {
     .mesas-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .batepapos-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FliParaíba</title>
-    <link rel="stylesheet" href="style.css?v=20261106-1">
-    <link rel="stylesheet" href="mobile.css?v=20261105-1">
+    <link rel="stylesheet" href="style.css?v=20261119-1">
+    <link rel="stylesheet" href="mobile.css?v=20261119-1">
 
 <!--FONT AWESOME-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -19,6 +19,7 @@
                 <li class="nav-item"><a href="#programacao"><i class="fa-solid fa-calendar-days" aria-hidden="true"></i><span>PROGRAMAÇÃO</span></a></li>
                 <li class="nav-item"><a href="#autores"><i class="fa-solid fa-book" aria-hidden="true"></i><span>AUTORES</span></a></li>
                 <li class="nav-item"><a href="#mesas"><i class="fa-brands fa-discourse"></i><span>MESAS</span></a></li>
+                <li class="nav-item"><a href="#batepapos"><i class="fa-solid fa-comments" aria-hidden="true"></i><span>BATE-PAPOS</span></a></li>
                 <li class="nav-item"><a href="#shows"><i class="fa-solid fa-music" aria-hidden="true"></i><span>SHOWS</span></a></li>
                 <li class="nav-item"><a href="#secao-05"><i class="fa-solid fa-user" aria-hidden="true"></i><span>FLIParaíba</span></a></li>
             </ul>
@@ -89,6 +90,35 @@
         </div>
     </section>
 
+    <section class="batepapos" id="batepapos" aria-labelledby="batepapos-title">
+        <div class="batepapos-content">
+            <h2 class="section-title" id="batepapos-title">BATE PAPOS</h2>
+            <div class="batepapos-grid" aria-live="polite">
+                <p class="batepapos-status" role="status">Carregando bate-papos...</p>
+            </div>
+        </div>
+    </section>
+
+    <dialog class="batepapo-dialog" aria-labelledby="batepapo-dialog-titulo" aria-modal="true">
+        <div class="batepapo-dialog-conteudo">
+            <button class="batepapo-dialog-fechar" type="button" aria-label="Fechar detalhes do bate-papo" autofocus>&times;</button>
+            <h2 class="batepapo-dialog-titulo" id="batepapo-dialog-titulo"></h2>
+            <section class="batepapo-dialog-participante" aria-labelledby="batepapo-dialog-participante-titulo">
+                <h3 id="batepapo-dialog-participante-titulo">Participante</h3>
+                <p class="batepapo-dialog-participante-valor"></p>
+            </section>
+            <div class="batepapo-dialog-dados">
+                <p class="batepapo-dialog-data"></p>
+                <p class="batepapo-dialog-hora"></p>
+                <p class="batepapo-dialog-polo"></p>
+            </div>
+            <section class="batepapo-dialog-descricao" aria-labelledby="batepapo-dialog-descricao-titulo">
+                <h3 id="batepapo-dialog-descricao-titulo">Descrição</h3>
+                <p class="batepapo-dialog-descricao-texto"></p>
+            </section>
+        </div>
+    </dialog>
+
     <dialog class="mesa-dialog" aria-labelledby="mesa-dialog-titulo" aria-modal="true">
         <div class="mesa-dialog-conteudo">
             <button class="mesa-dialog-fechar" type="button" aria-label="Fechar detalhes da mesa" autofocus>&times;</button>
@@ -127,7 +157,7 @@
         </div>
     </section>
 
-    <section class="depoimentos" aria-label="Depoimento do governador da Paraíba">
+    <section class="depoimentos" aria-label="Depoimentos do governador e do curador da FliParaíba">
         <div class="depoimentos-content">
             <p class="depoimentos-texto"><span>O FliParaíba é</span> um encontro de literatura, música e diferentes manifestações culturais que ocupa o Centro Histórico de João Pessoa e reúne escritores, artistas e leitores em torno da diversidade e da produção cultural. Em sua terceira edição, o festival conta com 15 polos culturais, homenageando personalidades que fazem parte da nossa história e aproximando o público de diferentes expressões artísticas.
 
@@ -138,6 +168,26 @@
                 <img src="./imgs/lucas.webp" alt="Lucas Ribeiro">
                 <h4>Lucas Ribeiro</h4>
                 <p>Governador do Estado da Paraíba</p>
+            </div>
+        </div>
+        <div class="depoimentos-content depoimentos-content--bruno">
+            <p class="depoimentos-texto">Socorro Acioli escreveu que “o tempo de sonhar é em cima da terra”. É preciso sonhar, portanto, sonhar como quem inventa: não para recusar o real, mas para agir sobre ele, disputar suas possibilidades e imaginar aquilo que ainda pode existir. A curadoria da terceira edição da FliParaíba, “Rotas: a invenção da Afro-Latino-América”, parte dessa ideia de utopia em meio às distopias de ontem, de hoje e, possivelmente, de amanhã.
+
+No meio dos destroços, há nós.
+
+O festival conta com trinta participantes de dez países, distribuídos em dez mesas. Mas, como em toda curadoria, as faltas podem ser tão destacadas quanto as presenças, e aqui houve uma escolha deliberada: no contexto brasileiro, pensar um mundo-Nordeste. Com algumas exceções como Leda Maria Martins e Cidinha da Silva, nomes que, na minha leitura, não poderiam estar ausentes dessa conversa sobre a experiência afro-latino-americana no Brasil, a maioria dos convidados nacionais desta edição partem do Nordeste. Sei das ausências, das tantas autorias e parcerias de outras regiões que poderiam estar conosco, mas às vezes a pisada que nos identifica precisa ser grande o bastante para produzir efeito. Esse recorte existe como resposta a tudo aquilo que sabemos, mas que nem sempre precisamos nomear outra vez.
+
+Se o autonomeado centro foi durante tanto tempo autorizado a imaginar o país, interessa agora perguntar o que acontece quando mudamos o ponto de onde o país é imaginado. Como escreve a poeta Gisela Casimiro: “Pantera negra prende / a verdade entre as garras, / afia a História com os dentes.” Os dentes que temos, devemos usá-los. A invenção de que falamos é feita de mordidas e ganas, de memória e linguagem, de corpos que tomam para si o direito de recontar a história antes contada pelo colonizador, ocupando a cidade, criando linguagens e imaginando futuros. “Hoy nos sentimos más libres y podemos contar las monstruosidades que nos rodean”, disse María Fernanda Ampuero. Liberdade é romper o molde. Inventar.
+
+É tudo nosso.
+
+Vamos pensar África, América Latina e Nordeste não como territórios homogêneos, mas lugares heterogêneos atravessados por conflitos, diásporas e permanências. João Pessoa será o ponto de encontro dessas rotas e, ao menos por três dias, será o começo de tudo: do que criamos e do que ainda seremos.
+
+Porque, se conseguimos inventar, existe.</p>
+            <div class="depoimentos-pessoa">
+                <img src="./imgs/bruno.webp" alt="Bruno Ribeiro">
+                <h4>Bruno Ribeiro</h4>
+                <p>Curador da 3ª edição da FliParaíba</p>
             </div>
         </div>
     </section>
@@ -221,7 +271,7 @@
     <img src="logos.webp" alt="Logos de apoio, realização e parceiros do evento">
 </section>
 
-<script src="script.js?v=20261105"></script>
+<script src="script.js?v=20261119-1"></script>
 
 
 </body>

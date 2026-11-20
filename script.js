@@ -752,6 +752,169 @@ if (mesasGrid && mesaDialog instanceof HTMLDialogElement
 	});
 }
 
+const batepaposGrid = document.querySelector(".batepapos-grid");
+const batepapoDialog = document.querySelector(".batepapo-dialog");
+const batepapoDialogTitle = document.querySelector(".batepapo-dialog-titulo");
+const batepapoDialogParticipant = document.querySelector(".batepapo-dialog-participante-valor");
+const batepapoDialogDate = document.querySelector(".batepapo-dialog-data");
+const batepapoDialogTime = document.querySelector(".batepapo-dialog-hora");
+const batepapoDialogPolo = document.querySelector(".batepapo-dialog-polo");
+const batepapoDialogDescription = document.querySelector(".batepapo-dialog-descricao-texto");
+const batepapoDialogClose = document.querySelector(".batepapo-dialog-fechar");
+const batepaposById = new Map();
+
+function isValidBatepapo(batepapo) {
+	if (!batepapo || typeof batepapo.imagem !== "string") return false;
+
+	let imageUrl;
+	try {
+		imageUrl = new URL(batepapo.imagem.trim(), document.baseURI);
+	} catch {
+		return false;
+	}
+
+	return Boolean(
+		imageUrl.origin === window.location.origin
+		&& !imageUrl.username
+		&& !imageUrl.password
+		&& typeof batepapo.id === "string"
+		&& batepapo.id.trim()
+		&& typeof batepapo.titulo === "string"
+		&& batepapo.titulo.trim()
+		&& typeof batepapo.participante === "string"
+		&& batepapo.participante.trim()
+		&& typeof batepapo.descricao === "string"
+		&& batepapo.descricao.trim()
+		&& typeof batepapo.data === "string"
+		&& /^\d{2}\/\d{2}\/\d{4}$/.test(batepapo.data)
+		&& typeof batepapo.hora === "string"
+		&& /^\d{2}:\d{2}$/.test(batepapo.hora)
+		&& typeof batepapo.polo === "string"
+		&& batepapo.polo.trim()
+	);
+}
+
+function createBatepapoCard(batepapo) {
+	const card = document.createElement("button");
+	card.className = "batepapo-card";
+	card.type = "button";
+	card.dataset.batepapoId = batepapo.id;
+	card.setAttribute("aria-haspopup", "dialog");
+
+	const image = document.createElement("img");
+	image.className = "batepapo-card-imagem";
+	image.src = new URL(batepapo.imagem.trim(), document.baseURI).href;
+	image.alt = "";
+	image.loading = "lazy";
+	image.decoding = "async";
+	card.append(image);
+
+	const dateMatch = batepapo.data.match(/^(\d{2})\/(\d{2})\/\d{4}$/);
+	const timeLabel = batepapo.hora.replace(":", "h");
+	const dateLabel = `${dateMatch[1]}.${dateMatch[2]} - ${timeLabel}`;
+	const date = document.createElement("span");
+	date.className = "batepapo-card-data";
+	const calendarIcon = document.createElement("i");
+	calendarIcon.className = "fa-regular fa-calendar-days";
+	calendarIcon.setAttribute("aria-hidden", "true");
+	date.append(calendarIcon, document.createTextNode(dateLabel));
+	card.append(date);
+	card.append(createTextElement("span", "batepapo-card-titulo", batepapo.titulo));
+	card.setAttribute("aria-label", `${batepapo.titulo}. ${dateLabel}`);
+	return card;
+}
+
+function openBatepapoDialog(batepapo) {
+	batepapoDialogTitle.textContent = batepapo.titulo;
+	batepapoDialogParticipant.textContent = batepapo.participante;
+	batepapoDialogDate.textContent = `Data: ${batepapo.data}`;
+	batepapoDialogTime.textContent = `Hora: ${batepapo.hora}`;
+	batepapoDialogPolo.textContent = `Polo: ${batepapo.polo}`;
+	batepapoDialogDescription.textContent = batepapo.descricao;
+	batepapoDialog.showModal();
+	batepapoDialogClose.focus();
+}
+
+async function loadBatepapos() {
+	if (!batepaposGrid) return;
+
+	try {
+		const response = await fetch("./bate-papos.json", { cache: "no-cache" });
+		if (!response.ok) {
+			throw new Error(`Falha HTTP ao carregar bate-papos.json: ${response.status}`);
+		}
+
+		const data = await response.json();
+		if (!data || !Array.isArray(data.batepapos)) {
+			throw new Error("O arquivo bate-papos.json não possui uma lista batepapos válida.");
+		}
+
+		if (data.batepapos.length === 0) {
+			batepaposGrid.replaceChildren(createTextElement(
+				"p",
+				"batepapos-status",
+				"Não há bate-papos cadastrados no momento."
+			));
+			return;
+		}
+
+		const cards = [];
+		data.batepapos.forEach((batepapo, index) => {
+			if (!isValidBatepapo(batepapo) || batepaposById.has(batepapo.id)) {
+				console.warn(`Registro de bate-papo inválido ou com ID duplicado na posição ${index + 1}.`);
+				return;
+			}
+
+			batepaposById.set(batepapo.id, batepapo);
+			cards.push(createBatepapoCard(batepapo));
+		});
+
+		if (cards.length === 0) {
+			batepaposGrid.replaceChildren(createTextElement(
+				"p",
+				"batepapos-status",
+				"Não foi possível exibir os bate-papos cadastrados."
+			));
+			return;
+		}
+
+		batepaposGrid.replaceChildren(...cards);
+		observeRevealElements(batepaposGrid);
+	} catch (error) {
+		console.error("Não foi possível carregar os bate-papos.", error);
+		batepaposGrid.replaceChildren(createTextElement(
+			"p",
+			"batepapos-status",
+			"Não foi possível carregar os bate-papos agora."
+		));
+	}
+}
+
+loadBatepapos();
+
+if (batepaposGrid && batepapoDialog instanceof HTMLDialogElement
+	&& batepapoDialogTitle instanceof HTMLHeadingElement
+	&& batepapoDialogParticipant instanceof HTMLParagraphElement
+	&& batepapoDialogDate instanceof HTMLParagraphElement
+	&& batepapoDialogTime instanceof HTMLParagraphElement
+	&& batepapoDialogPolo instanceof HTMLParagraphElement
+	&& batepapoDialogDescription instanceof HTMLParagraphElement
+	&& batepapoDialogClose instanceof HTMLButtonElement) {
+	batepaposGrid.addEventListener("click", (event) => {
+		if (!(event.target instanceof Element)) return;
+		const card = event.target.closest(".batepapo-card");
+		if (!(card instanceof HTMLButtonElement)) return;
+
+		const batepapo = batepaposById.get(card.dataset.batepapoId);
+		if (batepapo) openBatepapoDialog(batepapo);
+	});
+
+	batepapoDialogClose.addEventListener("click", () => batepapoDialog.close());
+	batepapoDialog.addEventListener("click", (event) => {
+		if (event.target === batepapoDialog) batepapoDialog.close();
+	});
+}
+
 const authorDialog = document.querySelector(".autor-dialog");
 const authorDialogPhoto = document.querySelector(".autor-dialog-foto");
 const authorDialogName = document.querySelector(".autor-dialog-nome");

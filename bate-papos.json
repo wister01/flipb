@@ -1,0 +1,44 @@
+{
+  "batepapos": [
+    {
+      "id": "bate-papo-abertura",
+      "titulo": "De Candeia a Macondo: uma invenção latino-americana",
+      "participante": "Socorro Acioli | Fortaleza - CE\nMediação: Thays Albuquerque | Recife - PE",
+      "descricao": "Socorro Acioli atravessa as geografias reais e imaginárias da América Latina. Nesta conversa, vamos percorrer memória, encantamento, causos e fabulação para pensar um continente que também se escreve a partir de seus traumas, amores e contradições. Se “o tempo de sonhar é em cima da terra”, inventar outros mundos é também uma maneira de transformar este.",
+      "data": "26/11/2026",
+      "hora": "18:30",
+      "polo": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "imagem": "./autores_uploads/c55b34d49d2e4e0e59b5fe56b8246db9.webp"
+    },
+    {
+      "id": "bate-papo-havana",
+      "titulo": "A invenção de Havana",
+      "participante": "Leonardo Padura | Havana - Cuba\nMediação: Analice Pereira | Monte Horebe - PB",
+      "descricao": "Toda cidade guarda versões que não aparecem nos cartões-postais. Há décadas, Leonardo Padura percorre as ruas de Havana em busca delas. Entre o romance policial, a investigação histórica e a memória, sua literatura transforma Cuba em território de perguntas. Seus personagens investigam crimes, mas também as chagas deixadas pelo tempo sobre uma cidade e seus habitantes. Os becos que ninguém quer olhar: é ali que Padura olha. Neste encontro, a FliParaíba recebe um dos grandes nomes da literatura latino-americana contemporânea para uma conversa sobre como a imaginação pode partir do concreto para revelar aquilo que a realidade, sozinha, nem sempre consegue contar.",
+      "data": "27/11/2026",
+      "hora": "18:30",
+      "polo": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "imagem": "./autores_uploads/a5155b69f9b9fbd3dd4468d02922df42.webp"
+    },
+    {
+      "id": "bate-papo-luanda",
+      "titulo": "A invenção de Angola",
+      "participante": "Ondjaki | Luanda - Angola\nMediação: João Matias | Crato - CE",
+      "descricao": "Há cidades que existem no mapa e outras que continuamos inventando depois de partir delas. Na literatura de Ondjaki, Luanda é memória, infância, espanto e transformação. Entre Angola e o mundo, sua escrita faz da língua um universo de brincadeira séria e pertencimento, onde a experiência cotidiana pode ganhar a dimensão do sonho, da fábula, da política e da poesia. Neste encontro, a FliParaíba percorre a obra de um escritor que encontrou na imaginação uma maneira de regressar aos lugares de onde viemos.",
+      "data": "28/11/2026",
+      "hora": "16:00",
+      "polo": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "imagem": "./autores_uploads/ea1f669b4ab579211e628bf935766530.webp"
+    },
+    {
+      "id": "bate-papo-encerramento",
+      "titulo": "O ontem é o hoje do agora: a invenção do futuro",
+      "participante": "Anelis Assumpção | São Paulo - SP\nMediação: Bruno Ribeiro | Pouso Alegre - MG",
+      "descricao": "O que do passado ainda pulsa no presente e o que podemos inventar a partir disso? Neste encontro, Bruno Ribeiro conversa com Anelis Assumpção sobre arte, música e as possibilidades de imaginar outros futuros. Conversam também sobre a rica herança do nosso proto-afrofuturista Itamar Assumpção. A partir de suas trajetórias e criações, o bate-papo propõe pensar nas experiências que nos formam e em como a liberdade de criar pode abrir caminhos para aquilo que ainda não existe. O futuro não começa amanhã: ele começa hoje. Agora.",
+      "data": "28/11/2026",
+      "hora": "18:30",
+      "polo": "Polo Pereira da Silva - Igreja e Mosteiro de São Bento",
+      "imagem": "./autores_uploads/63bacd30c095b6bbd8ef9845c940cd07.webp"
+    }
+  ]
+}

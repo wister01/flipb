@@ -565,6 +565,234 @@ header {
     white-space: pre-wrap;
 }
 
+.batepapos {
+    z-index: 2;
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+    padding: calc(clamp(48px, 5vw, 84px) + var(--curtain-overlap)) clamp(16px, 2vw, 38px);
+    overflow: hidden;
+    background: #009f62;
+    color: #fff;
+}
+
+.batepapos::before {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: url("imgs/bg_autores.webp") right center / auto 100% no-repeat;
+    clip-path: ellipse(50% 140% at 100% 50%);
+    content: "";
+}
+
+.batepapos-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.batepapos .section-title {
+    margin-bottom: clamp(28px, 3vw, 52px);
+    color: #fff;
+    font-size: clamp(2.6rem, 6.2vw, 6rem);
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.batepapos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+}
+
+.batepapo-card {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    aspect-ratio: 0.735;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: clamp(12px, 1.4vw, 24px);
+    overflow: hidden;
+    border: 0;
+    background: #702b91;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    text-align: left;
+    cursor: pointer;
+    isolation: isolate;
+    transition: transform 0.25s ease;
+}
+
+.batepapo-card:hover {
+    z-index: 1;
+    transform: scale(1.025);
+}
+
+.batepapo-card:focus-visible {
+    z-index: 1;
+    outline: 3px solid #fff;
+    outline-offset: -5px;
+}
+
+.batepapo-card-imagem {
+    position: absolute;
+    z-index: -2;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.batepapo-card::after {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: linear-gradient(180deg, rgb(0 0 0 / 8%) 0%, transparent 42%, rgb(0 0 0 / 12%) 100%);
+    content: "";
+}
+
+.batepapo-card-data {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    align-self: flex-end;
+    padding: 3px 8px;
+    background: #ed0874;
+    color: #fff;
+    font-family: "Premiero", sans-serif;
+    font-size: clamp(1.17rem, 1.495vw, 1.625rem);
+    font-weight: 100;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.batepapo-card-titulo {
+    max-width: 100%;
+    padding: 6px 9px;
+    background: #7043b3;
+    box-shadow: 6px 5px 0 #ed0874;
+    color: #fff;
+    font-family: "Premiero", sans-serif;
+    font-size: clamp(1.365rem, 2.015vw, 2.34rem);
+    font-weight: 100;
+    line-height: 1.1;
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
+}
+
+.batepapos-status {
+    grid-column: 1 / -1;
+    margin: 24px auto;
+    color: #fff;
+    text-align: center;
+}
+
+.batepapo-dialog {
+    position: fixed;
+    inset: 0;
+    width: min(760px, calc(100vw - 32px));
+    max-width: none;
+    max-height: min(88vh, 820px);
+    margin: auto;
+    padding: 0;
+    overflow: auto;
+    border: 0;
+    background: #702b91;
+    color: #fff;
+    box-shadow: 8px 9px 0 rgb(41 14 54 / 55%);
+}
+
+.batepapo-dialog[open] {
+    display: block;
+}
+
+.batepapo-dialog::backdrop {
+    background: rgb(18 9 29 / 80%);
+}
+
+.batepapo-dialog-conteudo {
+    position: relative;
+    padding: clamp(32px, 5vw, 60px);
+}
+
+.batepapo-dialog-fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: grid;
+    width: 44px;
+    height: 44px;
+    place-items: center;
+    border: 0;
+    background: #ed0874;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.batepapo-dialog-fechar:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+}
+
+.batepapo-dialog-titulo {
+    max-width: calc(100% - 24px);
+    margin: 0 0 28px;
+    font-family: "Premiero", sans-serif;
+    font-size: clamp(2.6rem, 6.5vw, 4.42rem);
+    font-weight: 100;
+    line-height: 1.1;
+    overflow-wrap: anywhere;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.batepapo-dialog-participante,
+.batepapo-dialog-descricao {
+    margin-top: 24px;
+}
+
+.batepapo-dialog :is(h3, p) {
+    margin: 0;
+}
+
+.batepapo-dialog :is(h2, h3, p) {
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+
+.batepapo-dialog-participante h3,
+.batepapo-dialog-descricao h3 {
+    margin-bottom: 8px;
+    font-family: "Premiero", sans-serif;
+    font-size: 1.755rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.batepapo-dialog-participante-valor,
+.batepapo-dialog-descricao-texto {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+.batepapo-dialog-dados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    margin-top: 24px;
+    padding: 14px 0;
+    border-top: 1px solid rgb(255 255 255 / 45%);
+    border-bottom: 1px solid rgb(255 255 255 / 45%);
+    font-size: 1.1rem;
+}
+
 .shows {
     z-index: 2;
     min-height: 100vh;
@@ -586,6 +814,18 @@ header {
     gap: clamp(36px, 7vw, 100px);
     width: min(100%, 1120px);
     margin: 0 auto;
+}
+
+.depoimentos-content--bruno {
+    margin-top: clamp(56px, 8vw, 112px);
+}
+
+.depoimentos-content--bruno .depoimentos-texto {
+    order: 1;
+}
+
+.depoimentos-content--bruno .depoimentos-pessoa {
+    order: 2;
 }
 
 .depoimentos-texto {
